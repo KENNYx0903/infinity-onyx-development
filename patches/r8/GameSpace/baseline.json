@@ -1,0 +1,8 @@
+{
+  "component": "GameSpace",
+  "base_sha256": "736e3624f76c7006f3d43402821097967873215380309db00ea21103a099fa8d",
+  "r8_sha256": "56d01ba656f843f489706bd7287c03aa82f878e1ed0c078e13de7b5e4ea89df4",
+  "changed_classes": 113,
+  "new_classes": 12,
+  "excluded_new_classes": []
+}

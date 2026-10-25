@@ -1,0 +1,352 @@
+{
+  "modified_or_added": [
+    {
+      "class": "androidx/appcompat/resources/R$id.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/appcompat/widget/VectorEnabledTintResources.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/cardview/R$id.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/material3/R$id.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/constraintlayout/core/LinearSystem.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/drawerlayout/R$id.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/recyclerview/widget/RecyclerView.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/startup/R$id.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/swiperefreshlayout/R$id.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/viewpager2/R$id.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/airbnb/lottie/L.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/airbnb/lottie/LottieDrawable.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/BubbleTextView.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/LauncherProvider.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/LunatikBlurExport.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/BaseIconFactory.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/DrawerLabelToggle$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/DrawerLabelToggle$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/DrawerLabelToggle.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/LauncherIconProvider.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/LunatikDrawerLabel.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/LunatikLegacyPlate.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/LunatikThemedIconRefresh.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/LunatikWidgetText.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/MonochromeIconFactory.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$anim.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$animator.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$array.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$fraction.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$id.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$integer.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$interpolator.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$layout.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$menu.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$mipmap.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$plurals.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$raw.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$style.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/R$xml.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/icons/mono/MonoThemedBitmap.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/launcher3/qsb/BlurModePreferences$Watcher.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/qsb/BlurModePreferences.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/qsb/QsbGlass$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/qsb/QsbGlass$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/qsb/QsbGlass$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/qsb/QsbGlass$Material$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/qsb/QsbGlass$Material.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/qsb/QsbGlass$Panel.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/qsb/QsbGlass.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/qsb/QsbOuterDrawable.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/settings/SettingsActivity$LauncherSettingsFragment.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/settings/SettingsAppDrawer$AppDrawerSettingsFragment.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/settings/SettingsHomescreen$HomescreenSettingsFragment.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/testing/shared/TestProtocol.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/widget/LauncherAppWidgetHostView.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/launcher3/widgetpicker/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/quickstep/TaskShortcutFactory$FreeformSystemShortcut.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/quickstep/util/QuickstepProtoLogGroup$Variables.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settingslib/color/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settingslib/search/widget/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settingslib/utils/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settingslib/widget/adaptiveicon/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settingslib/widget/category/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settingslib/widget/help/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settingslib/widget/preference/zerostate/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/shared/biometrics/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/wifitrackerlib/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/wm/shell/shared/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/google/android/setupdesign/strings/R$id.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    }
+  ],
+  "excluded_modified_classes": [],
+  "removed_classes": [],
+  "note": "Includes harmless reassembly differences such as jumbo string opcodes, labels and omitted explicit zero field defaults, to preserve exact R8 smali text."
+}

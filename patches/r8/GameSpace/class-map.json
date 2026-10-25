@@ -1,0 +1,632 @@
+{
+  "modified_or_added": [
+    {
+      "class": "androidx/appcompat/widget/VectorEnabledTintResources.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/constraintlayout/core/LinearSystem.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/recyclerview/widget/RecyclerView.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/airbnb/lottie/L.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/airbnb/lottie/LottieDrawable.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/infinity/localization/RuUiText.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/charging/ChargingProfileEditorActivity.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/charging/ChargingProfileEditorViewModel.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/charging/ChargingProfileListActivity.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/charging/ChargingProfileRepository.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/charging/ChargingSuggestionEngine.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/charging/ComposableSingletons$ChargingProfileEditorActivityKt.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/charging/ComposableSingletons$ChargingProfileListActivityKt.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/AppSettings.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/CornerStyle.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/DockSort.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/DockSource.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/EdgePreset.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/FilterKind.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/FilterPreset.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/HandleFill.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/HandlePreset.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/IconShape.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/LabelMode.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/SidebarStyle.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/StripAccentMode.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/StripButtonSpec.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/StripLayout.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/StripPosition.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/data/SystemSettings.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/ComposableSingletons$PanelHeaderKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/ComposableSingletons$PanelHostKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/FilterTabKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/GameSidebar$PanelOverlay$GlassmorphismBox$1$1$1$1$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/GameSidebar$onCreate$3$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/GameSidebar.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/GameSpaceService.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/GraphicsTabKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/LunatikBatteryView$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/LunatikBatteryView$EmptyFactory.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/LunatikBatteryView$Factory.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/LunatikBatteryView$Update.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/LunatikBatteryView.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/LunatikBlocks.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/LunatikPanelSize.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/NetworkPingMonitor.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelAppsKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelEditKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelHeaderKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelHostKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelMetricsKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelPingKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelProfilesKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelQuickSettingsKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelTheme.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelThemeKt$LocalPanelAccent$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelThemeKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/PanelWidgetsKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/SessionService.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/SidebarPolicy$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/SidebarPolicy$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/SidebarPolicy.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/SoundTabKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/StripComponentsKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/TouchLatencyBenchmarkKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/TouchTabKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/TouchTesterExpandedKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/TunerPanelKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/VideoToolboxCardKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/fps/FpsInteractor$fpsCallback$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/fps/FpsInteractor.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/monitor/DemoScenario.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/monitor/MonitorSettings.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/monitor/MonitorWidgetsKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/tiles/DragZone.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/tiles/Phase1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/tiles/ScreenRecordController.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/gamebar/tiles/TileRegistry.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/hub/ComposableSingletons$GameHubActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/hub/ComposableSingletons$GlobalProfileActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/hub/ComposableSingletons$HubSettingsActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/hub/FixedPanelAppearance.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/hub/GameHubActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/hub/GlobalProfileActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/hub/HubSettingsActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/ComposableSingletons$PerAppSettingsScreenKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/ComposableSingletons$SidebarSettingsActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/PerAppSettingsScreenKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/PerAppTab.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/SidebarSettingsActivityKt$SidebarSettingsScreen$3$1$1$10$1$1$2.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/SidebarSettingsActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/diagnostics/ComposableSingletons$DiagnosticsActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/diagnostics/DiagnosticsActivityKt$DiagnosticsScreen$onCopy$1$1$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/diagnostics/DiagnosticsActivityKt$DiagnosticsScreen$onCopy$1$1$3.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/diagnostics/DiagnosticsActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/fpsstats/ChartComponentsKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/fpsstats/ComposableSingletons$FpsStatsActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/fpsstats/ComposableSingletons$FpsStatsDetailActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/fpsstats/FpsStatsDetailActivity.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/fpsstats/FpsStatsDetailActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/sidebarstudio/ComposableSingletons$SidebarStudioActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/sidebarstudio/SidebarPreviewKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/sidebarstudio/SidebarShapesKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/sidebarstudio/SidebarStudioActivity.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/sidebarstudio/SidebarStudioActivityKt$StudioScreen$1$2$1$1$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/sidebarstudio/SidebarStudioActivityKt$StudioScreen$3$1$8$1$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/sidebarstudio/SidebarStudioActivityKt$StudioScreen$3$1$8$1$2.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/settings/sidebarstudio/SidebarStudioActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/ComposableSingletons$CustomProfileComponentsKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/ComposableSingletons$CustomProfileEditorActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/ComposableSingletons$CustomProfileListActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/CurveSuggestionEngine.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/CustomProfileChartsKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/CustomProfileComponentsKt$SourcePickerSheet$lambda$10$lambda$9$lambda$8$$inlined$items$default$4.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/CustomProfileComponentsKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/CustomProfileEditorActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/CustomProfileEditorViewModel.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/CustomProfileListActivityKt$ListRoot$4$6$1$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/CustomProfileListActivityKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/thermal/custom/CustomProfileRepository.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/ui/settings/ChargingProfileRowKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/ui/settings/ComposableSingletons$ThermalProfilePickerKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/ui/settings/ThermalProfilePickerKt.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/ui/viewmodel/PerAppSettingsViewModel.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/ireddragonicy/gamespace/ui/viewmodel/SettingsViewModel.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    }
+  ],
+  "excluded_modified_classes": [],
+  "removed_classes": [],
+  "note": "Includes harmless reassembly differences such as jumbo string opcodes, labels and omitted explicit zero field defaults, to preserve exact R8 smali text."
+}

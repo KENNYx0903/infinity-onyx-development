@@ -1,0 +1,2221 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "components/blur/src/blur-settings/src/com/android/settings/display/BlurSettings.java",
+      "origin": "work/blur-settings/src/com/android/settings/display/BlurSettings.java",
+      "origin_sha256": "4ddfb71c4267bcd6a0bdacf4403c599b50cd6d555d990cb805f3ab8f1c0b9810",
+      "sha256": "4ddfb71c4267bcd6a0bdacf4403c599b50cd6d555d990cb805f3ab8f1c0b9810",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/blur/src/blur-settings/sysui-src/com/android/systemui/statusbar/LunatikBlurConfig.java",
+      "origin": "work/blur-settings/sysui-src/com/android/systemui/statusbar/LunatikBlurConfig.java",
+      "origin_sha256": "28ffecba15f85aa59ae135ddb6d17340c07df81e615bbf394f66bd18e781633a",
+      "sha256": "28ffecba15f85aa59ae135ddb6d17340c07df81e615bbf394f66bd18e781633a",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/blur/src/blur-settings/launcher-src/com/android/launcher3/LunatikBlurExport.java",
+      "origin": "work/blur-settings/launcher-src/com/android/launcher3/LunatikBlurExport.java",
+      "origin_sha256": "4ee9c1d00da8970bd14b7b3efa8a7f99f6c13563c504e3fb340f16f2b4cf6db2",
+      "sha256": "4ee9c1d00da8970bd14b7b3efa8a7f99f6c13563c504e3fb340f16f2b4cf6db2",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/blur/src/blur-modes/launcher-src/BlurModePreferences.java",
+      "origin": "work/blur-modes/launcher-src/BlurModePreferences.java",
+      "origin_sha256": "cd063c2ef9bae1b6fac2d5caf8cb78c250c585a456c67b4282a516819df5e72d",
+      "sha256": "cd063c2ef9bae1b6fac2d5caf8cb78c250c585a456c67b4282a516819df5e72d",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/blur/src/notification-glass-test/src/NotificationGlass.java",
+      "origin": "work/notification-glass-test/src/NotificationGlass.java",
+      "origin_sha256": "a6255022b0ac852e651df0c64b97427df339a0758a35329e8031c8b757f10b6a",
+      "sha256": "a6255022b0ac852e651df0c64b97427df339a0758a35329e8031c8b757f10b6a",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/blur/src/qsb-only-glass/src/QsbGlass.java",
+      "origin": "work/qsb-only-glass/src/QsbGlass.java",
+      "origin_sha256": "3b058d2f27d9b9880f4c4ed3d38fa903dacb0f7c76aa57950be7d33b5163ca22",
+      "sha256": "3b058d2f27d9b9880f4c4ed3d38fa903dacb0f7c76aa57950be7d33b5163ca22",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/aod-pocket/src/aod-pocket-fingerprint/src/PocketFingerprintGate.java",
+      "origin": "work/aod-pocket-fingerprint/src/PocketFingerprintGate.java",
+      "origin_sha256": "a7295ac8a089d2e28953f041beb06f1f8606bb9adb686e8bf96522fca70a6ed5",
+      "sha256": "a7295ac8a089d2e28953f041beb06f1f8606bb9adb686e8bf96522fca70a6ed5",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/aod-pocket/src/aod-pocket-fingerprint/src/PocketResume120.java",
+      "origin": "work/aod-pocket-fingerprint/src/PocketResume120.java",
+      "origin_sha256": "ebd2e59926e7a7c85f43e345956cd958b32c7a751ef2e03836fbad827f2f356a",
+      "sha256": "ebd2e59926e7a7c85f43e345956cd958b32c7a751ef2e03836fbad827f2f356a",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/aod-pocket/src/aod-pocket-fingerprint/src/LunatikAodPocket.java",
+      "origin": "work/aod-pocket-fingerprint/src/LunatikAodPocket.java",
+      "origin_sha256": "048b7563a513f82f6dd616462eb502b21056de7c693c28e03597eee2054b1a46",
+      "sha256": "048b7563a513f82f6dd616462eb502b21056de7c693c28e03597eee2054b1a46",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/aod-pocket/src/aod-pocket-fingerprint/framework-src/PocketWakeGate.java",
+      "origin": "work/aod-pocket-fingerprint/framework-src/PocketWakeGate.java",
+      "origin_sha256": "ec15b7d730bff0bcf9ae55f85a22994ba6886323436dc84c309724c4e8c299c6",
+      "sha256": "ec15b7d730bff0bcf9ae55f85a22994ba6886323436dc84c309724c4e8c299c6",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/aod-pocket/src/pocket-no-aod/src/com/android/server/pocket/PocketSensorCompat.java",
+      "origin": "work/pocket-no-aod/src/com/android/server/pocket/PocketSensorCompat.java",
+      "origin_sha256": "2f1fd772738640d1021428fb1b579f94b8c59a7fe47ea40afdce9ac4adf547c0",
+      "sha256": "2f1fd772738640d1021428fb1b579f94b8c59a7fe47ea40afdce9ac4adf547c0",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/freeform/src/freeform-edge/src/com/android/wm/shell/windowdecor/EdgeFreeform.java",
+      "origin": "work/freeform-edge/src/com/android/wm/shell/windowdecor/EdgeFreeform.java",
+      "origin_sha256": "91a76777c975a8dc16c0354af4605909e43ee2fd223269ff121761549a4812d8",
+      "sha256": "91a76777c975a8dc16c0354af4605909e43ee2fd223269ff121761549a4812d8",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/launcher/src/drawer-label-toggle/src/com/android/launcher3/icons/DrawerLabelToggle.java",
+      "origin": "work/drawer-label-toggle/src/com/android/launcher3/icons/DrawerLabelToggle.java",
+      "origin_sha256": "60fc874ee1835c0d7e02097949d2079005eb08e4ac40e56b60c307746dae8274",
+      "sha256": "60fc874ee1835c0d7e02097949d2079005eb08e4ac40e56b60c307746dae8274",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/input-sounds/src/touch-sound-choice/settings-src/LunatikTouchSoundPreference.java",
+      "origin": "work/touch-sound-choice/settings-src/LunatikTouchSoundPreference.java",
+      "origin_sha256": "1b2fdebfeaa4e29c39e295415dbfc0fdf3b33d08ea49f2d8ad3c4e77dc0f749d",
+      "sha256": "1b2fdebfeaa4e29c39e295415dbfc0fdf3b33d08ea49f2d8ad3c4e77dc0f749d",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/input-sounds/src/touch-sound-choice/server-src/TouchSoundConfig.java",
+      "origin": "work/touch-sound-choice/server-src/TouchSoundConfig.java",
+      "origin_sha256": "db0bc1a63efef8c37c22080f1d72fd50f5fd172b4599d63f871942a3a82655cd",
+      "sha256": "db0bc1a63efef8c37c22080f1d72fd50f5fd172b4599d63f871942a3a82655cd",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/lock-haptics/src/eu-lock-haptic/integration/src/LockHapticService.java",
+      "origin": "work/eu-lock-haptic/integration/src/LockHapticService.java",
+      "origin_sha256": "5f6eb62d0706d8ad9afcd967857cb48188269feed010a694f96a673e6c565da3",
+      "sha256": "5f6eb62d0706d8ad9afcd967857cb48188269feed010a694f96a673e6c565da3",
+      "license": "Apache-2.0",
+      "status": "historical-reference-not-canonical"
+    },
+    {
+      "path": "components/lock-haptics/src/eu-lock-haptic/integration/src/OnyxLockHaptic.java",
+      "origin": "work/eu-lock-haptic/integration/src/OnyxLockHaptic.java",
+      "origin_sha256": "88d005723cc04e2aa019bd0adac4f1eabc54ff6a0f9572033d9e6bd03385743f",
+      "sha256": "88d005723cc04e2aa019bd0adac4f1eabc54ff6a0f9572033d9e6bd03385743f",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/blur/integration-reference/blur-modes/build.py",
+      "origin": "work/blur-modes/build.py",
+      "origin_sha256": "863c05f5c81b921da324d179a9dcd521a1ba67a4489fb997f55d78225df4ba57",
+      "sha256": "863c05f5c81b921da324d179a9dcd521a1ba67a4489fb997f55d78225df4ba57",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/blur-settings/build.py",
+      "origin": "work/blur-settings/build.py",
+      "origin_sha256": "092a5d275832ee1d931acec0efebae05b2141663d4f78caf857d3d9191d20163",
+      "sha256": "092a5d275832ee1d931acec0efebae05b2141663d4f78caf857d3d9191d20163",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/blur-settings/build-settings.py",
+      "origin": "work/blur-settings/build-settings.py",
+      "origin_sha256": "9cd416e1c6aaef251b7a594e24f8bcf7e287287aecaa568f3d4fb52715bcbe82",
+      "sha256": "9cd416e1c6aaef251b7a594e24f8bcf7e287287aecaa568f3d4fb52715bcbe82",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/blur-settings/build-systemui.py",
+      "origin": "work/blur-settings/build-systemui.py",
+      "origin_sha256": "ccb885b97c7ba516fc0c25c20f78119bc892bbb7c07a26ac590865d4cdd6f220",
+      "sha256": "ccb885b97c7ba516fc0c25c20f78119bc892bbb7c07a26ac590865d4cdd6f220",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/blur-settings/prepare.py",
+      "origin": "work/blur-settings/prepare.py",
+      "origin_sha256": "a71b8c7a4e409b9e8d4a074d1da432d0ffa1657793acbeb76cdd4d83d0533a49",
+      "sha256": "a71b8c7a4e409b9e8d4a074d1da432d0ffa1657793acbeb76cdd4d83d0533a49",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/blur-settings/xmlpatch.py",
+      "origin": "work/blur-settings/xmlpatch.py",
+      "origin_sha256": "763ea95f9092dde2a9dd38ae56f73105ebf86aa46a69191721a2ced74975b43d",
+      "sha256": "763ea95f9092dde2a9dd38ae56f73105ebf86aa46a69191721a2ced74975b43d",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/blur-settings/arscpatch.py",
+      "origin": "work/blur-settings/arscpatch.py",
+      "origin_sha256": "f053d6fef93d86c8e31146b338d51a72acc29bd268350a0ef73d915cb9119c04",
+      "sha256": "f053d6fef93d86c8e31146b338d51a72acc29bd268350a0ef73d915cb9119c04",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/blur-settings/xml-default.py",
+      "origin": "work/blur-settings/xml-default.py",
+      "origin_sha256": "9e8a45a60e0095906f5a24d66b9be1c22cc75a9c3562ccb6ace93e1ec5552f49",
+      "sha256": "9e8a45a60e0095906f5a24d66b9be1c22cc75a9c3562ccb6ace93e1ec5552f49",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/notification-glass-test/build.py",
+      "origin": "work/notification-glass-test/build.py",
+      "origin_sha256": "916d93385f83a5baf81f9755b8ce9899ee61c149332e90316d7188b366778c5d",
+      "sha256": "916d93385f83a5baf81f9755b8ce9899ee61c149332e90316d7188b366778c5d",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/notification-glass-test/build-settings.py",
+      "origin": "work/notification-glass-test/build-settings.py",
+      "origin_sha256": "7dcfe504949f4aae7765661cc3398a73563a32dcf88338052e52d33f0c3d1d4a",
+      "sha256": "7dcfe504949f4aae7765661cc3398a73563a32dcf88338052e52d33f0c3d1d4a",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/qsb-only-glass/build.py",
+      "origin": "work/qsb-only-glass/build.py",
+      "origin_sha256": "a1c5b3229983df496adc73335ef77625835404b5ed8e539a7c2b387ae9bc73e4",
+      "sha256": "a1c5b3229983df496adc73335ef77625835404b5ed8e539a7c2b387ae9bc73e4",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/blur/integration-reference/settings-search-surface/settings_search_patch.py",
+      "origin": "work/settings-search-surface/settings_search_patch.py",
+      "origin_sha256": "b3c213c727da48fd6321454270735e5278db118b040e2e300f207dd1c517ab75",
+      "sha256": "b3c213c727da48fd6321454270735e5278db118b040e2e300f207dd1c517ab75",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/aod-pocket-fingerprint/build.py",
+      "origin": "work/aod-pocket-fingerprint/build.py",
+      "origin_sha256": "45bd3bfad7e29af324223005ab859ac2f8c70dbe8bb49ae3d68a742fae8d2c34",
+      "sha256": "45bd3bfad7e29af324223005ab859ac2f8c70dbe8bb49ae3d68a742fae8d2c34",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/aod-pocket-fingerprint/build-framework.py",
+      "origin": "work/aod-pocket-fingerprint/build-framework.py",
+      "origin_sha256": "c49bd8c659b33e980cd5739641340956b630749a07988ce69c99a0a95a33ed93",
+      "sha256": "c49bd8c659b33e980cd5739641340956b630749a07988ce69c99a0a95a33ed93",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/pocket-no-aod/build-services.py",
+      "origin": "work/pocket-no-aod/build-services.py",
+      "origin_sha256": "b3e9c2458b0d0944dcdaa03108793686f8a2ad3092584201da6b8ecdd8b45281",
+      "sha256": "b3e9c2458b0d0944dcdaa03108793686f8a2ad3092584201da6b8ecdd8b45281",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/aod-entry-v38/build.py",
+      "origin": "work/aod-entry-v38/build.py",
+      "origin_sha256": "6acaba1109b89fd086b361738be2162a6a24902b04c8f5ee397e81c1abb5ffde",
+      "sha256": "1c972da628603c38237cd071433f3ffb0c708a9639a58401a29fb6dfff529ade",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/aod-unlock-v40/build.py",
+      "origin": "work/aod-unlock-v40/build.py",
+      "origin_sha256": "196252e68ba28750c0ec34be4d97707afb8443b0fcaf44c2eccff52c69cd525d",
+      "sha256": "9c287e565c6107e73e67a0de2afdbe8e473399d8d9ea8a5b3eea15087e06bfb6",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/aod-animation-v55/build.py",
+      "origin": "work/aod-animation-v55/build.py",
+      "origin_sha256": "801a6c737341cc765de263ac96d0fea49c546d436277292684c12f451989238a",
+      "sha256": "244726a71f716be5bf3ea2a373cf4213d77f54fbeed855cd001f33a1b18e2bc1",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/aod-entry-brightness-v54/build.py",
+      "origin": "work/aod-entry-brightness-v54/build.py",
+      "origin_sha256": "86ab39591f7f9e93003d5e4741d70cb748e1c593807de3461a56f39ce1eb3077",
+      "sha256": "d82a3e1deec50b43dd25b0e092fbcedd8d73a037160bd5a5d37f58cfccc518e2",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/aod-custom-entry-v58/build.py",
+      "origin": "work/aod-custom-entry-v58/build.py",
+      "origin_sha256": "54a87ce07057bddd59172b73aa58136a283ecb4692f6d748b9d5eadca9ff6f7d",
+      "sha256": "af01635c3c50fe5378760abd3b33a95cc9080713026fe71cc353873bf52b43bf",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/aod-fod-double-flash/build.py",
+      "origin": "work/aod-fod-double-flash/build.py",
+      "origin_sha256": "7e6516375d23abdc6527d843f2c5555f30628681cd4a1c083d38f18026ab6156",
+      "sha256": "c9c891d8b75f9c6dd86a5cc399a844d67c65a0299d8de6ce4917b994be91ac26",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/aod-notification-unlock-hide/build.py",
+      "origin": "work/aod-notification-unlock-hide/build.py",
+      "origin_sha256": "3f97d24a02a43a06620727f692a8ce68386a72805670a87581bc2cec44054a11",
+      "sha256": "88e6c97b1dc987ee9ada4e41c536db1c75577b5291da3983e19603109bb09c99",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/integration-reference/aod-vendor-sensor-v47/build.py",
+      "origin": "work/aod-vendor-sensor-v47/build.py",
+      "origin_sha256": "1bd49030e4ee359fdd6bf0e14c2b2e66d01b767687c814e1b80d71af15d78dd0",
+      "sha256": "1a86271d241d51d418feb9ca133192573f2d61f5f5ceec267e485bea3e829c8b",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/freeform/integration-reference/freeform-edge/build.py",
+      "origin": "work/freeform-edge/build.py",
+      "origin_sha256": "ae9432f53829db0e70f5a9462d94b1c911895ca4165759250b71ce026c48e3d8",
+      "sha256": "ae9432f53829db0e70f5a9462d94b1c911895ca4165759250b71ce026c48e3d8",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/freeform/integration-reference/freeform-fix/build.py",
+      "origin": "work/freeform-fix/build.py",
+      "origin_sha256": "71fa122b5663e85b87131a94f2d0420c8b50d65b6256eeee053c5e7273506511",
+      "sha256": "c6c14b904e3b24aeb418c3c4e766ba69d19943c4e33a2cd6e7835785cc32a551",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/freeform/integration-reference/freeform-fix/build-launcher.py",
+      "origin": "work/freeform-fix/build-launcher.py",
+      "origin_sha256": "2047d78ed2110349c5368e13dbe87db4647ea21deed6fdff202c6054b6cf8982",
+      "sha256": "36ffe7839ad8421629e941b7655dcea8f49e49f19fd2295ddad6e6e48c717942",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/freeform/integration-reference/freeform-fix/build-services-v4.py",
+      "origin": "work/freeform-fix/build-services-v4.py",
+      "origin_sha256": "57df4522865c9663f11652ad5fb6bee046bc19613fcb725717769453fcb16648",
+      "sha256": "81afb9d84d5755596bf129586475ba539eff6c5c894e82f8b7ae5760cd863d73",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/games-sidebar/integration-reference/preset-resume-audit/patch.py",
+      "origin": "work/preset-resume-audit/patch.py",
+      "origin_sha256": "c8d7000a54fc05bc1c66b952d3b78bd884978eb5f444908529ee46209b1a536e",
+      "sha256": "c8d7000a54fc05bc1c66b952d3b78bd884978eb5f444908529ee46209b1a536e",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/games-sidebar/integration-reference/preset-resume-audit/build.py",
+      "origin": "work/preset-resume-audit/build.py",
+      "origin_sha256": "9f0fd994ef99a011c00dc05f9874577ef33d119bb14cccb912d684de7e9eed6d",
+      "sha256": "85c80222b0d7ce84bf3f6824ea2590d4b21392d230520f2a644e39040c9efc22",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/games-sidebar/integration-reference/gamespace-fps-live-fix/patch.py",
+      "origin": "work/gamespace-fps-live-fix/patch.py",
+      "origin_sha256": "da887651b2f28fadd9bc5cb369209aeb822e17aa78ccaba42da334f8b151b66f",
+      "sha256": "da887651b2f28fadd9bc5cb369209aeb822e17aa78ccaba42da334f8b151b66f",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/games-sidebar/integration-reference/sidebar-fix/build.py",
+      "origin": "work/sidebar-fix/build.py",
+      "origin_sha256": "88c4964020698ce32ed5fa4acbd0abe5f7e4f46d3957ee596a284b06a40970ec",
+      "sha256": "18059e3e00feb412cecd4c6f1205833a9dec345d62ebd7d70401e9a3b6724443",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/games-sidebar/integration-reference/sidebar-fix/finalize.py",
+      "origin": "work/sidebar-fix/finalize.py",
+      "origin_sha256": "4c9206be3ddc3b94c293d8c726b45bbb18cc58840ef971e89f287aa60c3d926d",
+      "sha256": "4c9206be3ddc3b94c293d8c726b45bbb18cc58840ef971e89f287aa60c3d926d",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/games-sidebar/integration-reference/gamespace-redesign/patch.py",
+      "origin": "work/gamespace-redesign/patch.py",
+      "origin_sha256": "94306f794510c1a627c87dfc14338b56b6bf988c9f555c5af0d9557bfc6d0b2c",
+      "sha256": "94306f794510c1a627c87dfc14338b56b6bf988c9f555c5af0d9557bfc6d0b2c",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/games-sidebar/integration-reference/gamespace-redesign/build-battery.py",
+      "origin": "work/gamespace-redesign/build-battery.py",
+      "origin_sha256": "172cc6edcae48f45a5769a26f91ef595745352b9ccc32af83379b223aee1a471",
+      "sha256": "56cf918a0c41e7953aeca7344950b325b297ba470a41f9b3dbd2d77bc9ec0b38",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/launcher/integration-reference/drawer-label-toggle/build.py",
+      "origin": "work/drawer-label-toggle/build.py",
+      "origin_sha256": "7e627c18cf30e2a3a26f9ad0e225263fca96158ad75144109b81bc5120643fa0",
+      "sha256": "7e627c18cf30e2a3a26f9ad0e225263fca96158ad75144109b81bc5120643fa0",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/launcher/integration-reference/launcher-icons-fix/patch.py",
+      "origin": "work/launcher-icons-fix/patch.py",
+      "origin_sha256": "90d1f6f3a591a364b3a288d43881acbaecc40708f9cf7647fb1bb8899c6792f7",
+      "sha256": "90d1f6f3a591a364b3a288d43881acbaecc40708f9cf7647fb1bb8899c6792f7",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/launcher/integration-reference/launcher-icons-fix/patch-resources.py",
+      "origin": "work/launcher-icons-fix/patch-resources.py",
+      "origin_sha256": "c91023e553706a23bbb85af51670397cc6eb0f994cc57d7765e354f0a0e5bc9f",
+      "sha256": "c91023e553706a23bbb85af51670397cc6eb0f994cc57d7765e354f0a0e5bc9f",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/launcher/integration-reference/launcher-icons-fix/build.py",
+      "origin": "work/launcher-icons-fix/build.py",
+      "origin_sha256": "e2416a0dfbe8efac780f5612a4ec4a52724a59aa1c2c9e234de68dc54343629a",
+      "sha256": "50820ad6c08530243bbaee5b2a08b00eef3dab7af2ed851f5e87b915a337c37c",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/launcher/integration-reference/widget-fix/build.py",
+      "origin": "work/widget-fix/build.py",
+      "origin_sha256": "58c3a92f841c3d27f6db3105cb785320c3c345c0286d7eedfe77bfba51d7433b",
+      "sha256": "ce640ee3a365ab265ee3bd4f3bbaa48d12eee07f27a8564a3f0caad7645b0a06",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/input-sounds/integration-reference/touch-sound-choice/build.py",
+      "origin": "work/touch-sound-choice/build.py",
+      "origin_sha256": "fcf18af483b762f9208e43d4a78ac053d48319d682ced5a2e3e6908b3272bc77",
+      "sha256": "fcf18af483b762f9208e43d4a78ac053d48319d682ced5a2e3e6908b3272bc77",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/input-sounds/integration-reference/touch-sound-choice/update-settings.py",
+      "origin": "work/touch-sound-choice/update-settings.py",
+      "origin_sha256": "b2711974002496d31430c9199dfb900d9af8f93ad9601968a8517808838bc31b",
+      "sha256": "b2711974002496d31430c9199dfb900d9af8f93ad9601968a8517808838bc31b",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/optional-google/integration-reference/google-optional-optin/patch.py",
+      "origin": "work/google-optional-optin/patch.py",
+      "origin_sha256": "ab728923e813fe59b52d7095a1fbe0628950aa196875cbc17c3a9593d0ae6d00",
+      "sha256": "ab728923e813fe59b52d7095a1fbe0628950aa196875cbc17c3a9593d0ae6d00",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/optional-google/integration-reference/google-optional-optin/build.py",
+      "origin": "work/google-optional-optin/build.py",
+      "origin_sha256": "50b03c7e25d4656cb8abdd48b65a4fa6499d421563d1f421bc7e76ff1d42ca68",
+      "sha256": "ce2da31a1593cdd50c1ada877bde28ff42f0b1f1c164e668532318fbe24071f6",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/localization/integration-reference/ru-full-apps/patch-resources.py",
+      "origin": "work/ru-full-apps/patch-resources.py",
+      "origin_sha256": "3f1a613c9c1bc0836024b0175c95c6164adc8986dbd787e1864d3dc9edd421b4",
+      "sha256": "f4bab39012135ee439e9e6e7ffbbc770276d5f6c5c0f027d94b550c8aa2d3157",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/localization/integration-reference/ru-screenshot-round2/build-code.py",
+      "origin": "work/ru-screenshot-round2/build-code.py",
+      "origin_sha256": "49383d98dd21feb680a062a223a09e5c28b74b8309809813c0866bb81aa33530",
+      "sha256": "c61936a9d001ddd29dcdca887a8a3cf71cdd1015f4ea8ba6848ba17bcc60c306",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/localization/integration-reference/ru-translation-apply/patch.py",
+      "origin": "work/ru-translation-apply/patch.py",
+      "origin_sha256": "545de3d51e489ce06608d816be57520d3cca29ac969ff9dfade825294a35d657",
+      "sha256": "261cc500fa23abfdeb1621aac63c08b37be765d1c8b1765ca7631bde7dd6cd4f",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/localization/integration-reference/settings-aod-english/build.py",
+      "origin": "work/settings-aod-english/build.py",
+      "origin_sha256": "1ad97fae413fa1e04bc312382c755b7300d084ee0ab2c856cada48e7e2f9ac21",
+      "sha256": "c2a5d279a48793e61b253dedd03d0633d66eb4a3602fc2e3050706c80bd983a6",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/localization/integration-reference/settings-aod-label/build.py",
+      "origin": "work/settings-aod-label/build.py",
+      "origin_sha256": "93a3a3b6bf7bddc038b9611092b4af8118fba4f084903955a1c889e8f4c7995d",
+      "sha256": "008a432e72f51e394156a81e60c950b37cf840e4400a3fc366632ece6fff9d9b",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/localization/integration-reference/settings-aod-wallpaper/build.py",
+      "origin": "work/settings-aod-wallpaper/build.py",
+      "origin_sha256": "457d11916e79c755c476a77abe4c14071ce20660b069ed3a29093c0d33c16c8c",
+      "sha256": "47b40fb35a1e4b0cc9606b717281b026730eace36261b3ee05f5414fcfdfaf34",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/localization/integration-reference/translation-last-screen/patch_launcher.py",
+      "origin": "work/translation-last-screen/patch_launcher.py",
+      "origin_sha256": "1b612e85018e7d5670fb1c4b5038a952f60910458f76ab3a0c1ceedfb665b5e2",
+      "sha256": "1b612e85018e7d5670fb1c4b5038a952f60910458f76ab3a0c1ceedfb665b5e2",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/lock-haptics/integration-reference/eu-lock-haptic/integration/build_sysui.py",
+      "origin": "work/eu-lock-haptic/integration/build_sysui.py",
+      "origin_sha256": "06c577d125bc1d8c96de7e1fe5997a9a71dacdb214a4082fcff495538ef29b32",
+      "sha256": "7817bd1e62d0bbb9be29f918710720a318ac8c15df0b935e1eda9b53b34e8eb0",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/aod-pocket/historical-reference/aod-entry-brightness-v54/LunatikAodBrightness.java",
+      "origin": "work/aod-entry-brightness-v54/LunatikAodBrightness.java",
+      "origin_sha256": "d1ab81f1a2be3ca3c637a444f4616db742d3752643c2e8b34e792106737901ac",
+      "sha256": "d1ab81f1a2be3ca3c637a444f4616db742d3752643c2e8b34e792106737901ac",
+      "license": "Apache-2.0",
+      "status": "historical-reference-not-canonical"
+    },
+    {
+      "path": "components/aod-pocket/historical-reference/aod-animation-v55/src/LunatikAodVisual.java",
+      "origin": "work/aod-animation-v55/src/LunatikAodVisual.java",
+      "origin_sha256": "2697b861bacfd8fd742fc5750bda081e1e3da982fd9573f58cfcc5b0636f2d3e",
+      "sha256": "2697b861bacfd8fd742fc5750bda081e1e3da982fd9573f58cfcc5b0636f2d3e",
+      "license": "Apache-2.0",
+      "status": "historical-reference-not-canonical"
+    },
+    {
+      "path": "components/aod-pocket/historical-reference/aod-animation-v55/src/LunatikAodTransition.java",
+      "origin": "work/aod-animation-v55/src/LunatikAodTransition.java",
+      "origin_sha256": "9b2f802ab959853f851ee6b0282a8962ca9e8d7d2427c3135c613b660498f834",
+      "sha256": "9b2f802ab959853f851ee6b0282a8962ca9e8d7d2427c3135c613b660498f834",
+      "license": "Apache-2.0",
+      "status": "historical-reference-not-canonical"
+    },
+    {
+      "path": "components/aod-pocket/historical-reference/aod-animation-v55/src/LunatikSleepUi.java",
+      "origin": "work/aod-animation-v55/src/LunatikSleepUi.java",
+      "origin_sha256": "a58d7f356ed52f814828ea2c8c4c8ca8fed7bcfde419a147cba1a3340d1198e6",
+      "sha256": "a58d7f356ed52f814828ea2c8c4c8ca8fed7bcfde419a147cba1a3340d1198e6",
+      "license": "Apache-2.0",
+      "status": "historical-reference-not-canonical"
+    },
+    {
+      "path": "components/aod-pocket/historical-reference/aod-animation-v55/src/LunatikAodPocket.java",
+      "origin": "work/aod-animation-v55/src/LunatikAodPocket.java",
+      "origin_sha256": "dc67fee7ec63509599eeb0f63be66f725f1414cf3f5fea39d7be2f966e22c544",
+      "sha256": "dc67fee7ec63509599eeb0f63be66f725f1414cf3f5fea39d7be2f966e22c544",
+      "license": "Apache-2.0",
+      "status": "historical-reference-not-canonical"
+    },
+    {
+      "path": "components/lock-haptics/src/lock_hapticd.c",
+      "origin": "work/eu-lock-haptic/native/lock_hapticd.c",
+      "origin_sha256": "a0c01cda4c98b4fd3e5be49d89f8e20d7547ec40c8dfe7f73e9180fe0f26ce71",
+      "sha256": "a0c01cda4c98b4fd3e5be49d89f8e20d7547ec40c8dfe7f73e9180fe0f26ce71",
+      "license": "Apache-2.0",
+      "status": "accepted-helper-source"
+    },
+    {
+      "path": "components/kernel/aod-retention/lunatik_aod_retention.c",
+      "origin": "work/aod-fix/retention-paired/lunatik_aod_retention.c",
+      "origin_sha256": "f9b36792e95c4030eecc484a336e064164e2d4b6acb5a2c22c2b4b0564b605fc",
+      "sha256": "f9b36792e95c4030eecc484a336e064164e2d4b6acb5a2c22c2b4b0564b605fc",
+      "license": "GPL-2.0-only",
+      "status": "accepted-kernel-source"
+    },
+    {
+      "path": "components/kernel/amplifier-cn/0003-cn-only-gpio-cleanup.patch",
+      "origin": "work/subscriber-call-20261024/region-gate/0003-cn-only-gpio-cleanup.patch",
+      "origin_sha256": "674e4e7d29392a1c3042812e8578903666a89261d58b93c5b1988e21baa25927",
+      "sha256": "674e4e7d29392a1c3042812e8578903666a89261d58b93c5b1988e21baa25927",
+      "license": "GPL-2.0-only",
+      "status": "accepted-kernel-patch"
+    },
+    {
+      "path": "components/kernel/amplifier-cn/vendor_modprobe.patch",
+      "origin": "work/subscriber-call-20261024/region-gate/vendor_modprobe.sh",
+      "sha256": "e42681d83aa0e9b6b902daeee57cc3b73aca90aeaa3565026de2d61d12d7a297",
+      "license": "upstream-license-required",
+      "status": "accepted-loader-diff"
+    },
+    {
+      "path": "tools/rom-reference/build_images.py",
+      "origin": "work/rom-build-r8/build_images.py",
+      "origin_sha256": "e86e08fb4e8577eac91a7484d0443658c71ffcde7dba5f7fd6941d221b34db7c",
+      "sha256": "e86e08fb4e8577eac91a7484d0443658c71ffcde7dba5f7fd6941d221b34db7c",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "tools/rom-reference/build_payload.py",
+      "origin": "work/rom-build-r8/build_payload.py",
+      "origin_sha256": "8e19dd62a9b75d4ee9cf76525defbc761b17b4d0aac5df1f1338814fa9e58c30",
+      "sha256": "8e19dd62a9b75d4ee9cf76525defbc761b17b4d0aac5df1f1338814fa9e58c30",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "tools/rom-reference/add_avb.py",
+      "origin": "work/rom-build-r8/add_avb.py",
+      "origin_sha256": "462f07eda379f716c368346251f14314f98f16a3d794de1205c7bf13e4808578",
+      "sha256": "462f07eda379f716c368346251f14314f98f16a3d794de1205c7bf13e4808578",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "tools/rom-reference/compile_policy.py",
+      "origin": "work/rom-build-r8/compile_policy.py",
+      "origin_sha256": "3bc27345e0106f300ecde8f3233d282958e48fd61728c0065805ee3d44df62d1",
+      "sha256": "3bc27345e0106f300ecde8f3233d282958e48fd61728c0065805ee3d44df62d1",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "tools/rom-reference/erofs_meta.py",
+      "origin": "work/rom-build-r8/erofs_meta.py",
+      "origin_sha256": "e4c1ca81a9ca6a9a24b9cb5fa50aa9aadf062d65a8011a987451456f21c790dc",
+      "sha256": "e4c1ca81a9ca6a9a24b9cb5fa50aa9aadf062d65a8011a987451456f21c790dc",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "tools/rom-reference/proto.py",
+      "origin": "work/rom-build-r8/proto.py",
+      "origin_sha256": "13765f77d45e1ad13eabec9b2a999baaded2323ce84f0c3111eead1d971dfcf5",
+      "sha256": "13765f77d45e1ad13eabec9b2a999baaded2323ce84f0c3111eead1d971dfcf5",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "tools/rom-reference/package_rom.py",
+      "origin": "work/rom-build-r8/package_rom.py",
+      "origin_sha256": "cd083e5ae77fe60506f03be90144f01fce9c2c639427a145fa701fceee33fbec",
+      "sha256": "cd083e5ae77fe60506f03be90144f01fce9c2c639427a145fa701fceee33fbec",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "tools/rom-reference/verify_images.py",
+      "origin": "work/rom-build-r8/verify_images.py",
+      "origin_sha256": "afa05df8fdef4b1dc5180cba884aa6a505af6bbc9c3cf3d1cc8f1402de68513b",
+      "sha256": "afa05df8fdef4b1dc5180cba884aa6a505af6bbc9c3cf3d1cc8f1402de68513b",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "tools/rom-reference/verify_payload_stream_recovery.py",
+      "origin": "work/rom-build-r8/verify_payload_stream_recovery.py",
+      "origin_sha256": "b8bcdd4ee02674b5252347d37e529baf7a5e1049e8338d3ceb42d61d59e4e4ca",
+      "sha256": "b8bcdd4ee02674b5252347d37e529baf7a5e1049e8338d3ceb42d61d59e4e4ca",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "tools/rom-reference/verify_ota.py",
+      "origin": "work/rom-build-r8/verify_ota.py",
+      "origin_sha256": "24e0aa1e6fd8010a3b3c2ae5f8e6a5ea50656c0290b556da67951933495faf39",
+      "sha256": "24e0aa1e6fd8010a3b3c2ae5f8e6a5ea50656c0290b556da67951933495faf39",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "tools/rom-reference/google_apps_integration.py",
+      "origin": "work/rom-build-r8/google_apps_integration.py",
+      "origin_sha256": "a44f3623230a01729feb1c8512ae0e7367300ee8c50c87e074c517311839d725",
+      "sha256": "a44f3623230a01729feb1c8512ae0e7367300ee8c50c87e074c517311839d725",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/boot-reference/init.rc",
+      "origin": "work/rom-build-r8/init.rc",
+      "origin_sha256": "74168d25a46d44325f81e6c976b7896dcb29dbb06ee3b9c37115d575bbd10323",
+      "sha256": "74168d25a46d44325f81e6c976b7896dcb29dbb06ee3b9c37115d575bbd10323",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/boot-reference/lunatik-fixes.rc",
+      "origin": "work/rom-build-r8/lunatik-fixes.rc",
+      "origin_sha256": "a92127eac222cb21c3aed1f94de9b037ca866dc80310d2946e3f99653f15e816",
+      "sha256": "a92127eac222cb21c3aed1f94de9b037ca866dc80310d2946e3f99653f15e816",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/boot-reference/lunatik-susfs.rc",
+      "origin": "work/rom-build-r8/lunatik-susfs.rc",
+      "origin_sha256": "0c232460e8774825bb20eb91861b500efe0b7f0dc78817a236918ce2780af64f",
+      "sha256": "0c232460e8774825bb20eb91861b500efe0b7f0dc78817a236918ce2780af64f",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/boot-reference/lunatik-aod.rc",
+      "origin": "work/rom-build-r8/lunatik-aod.rc",
+      "origin_sha256": "5fffe359dc91ecadea8d54349e8201625e99fe22dbede01763beae126f685db2",
+      "sha256": "5fffe359dc91ecadea8d54349e8201625e99fe22dbede01763beae126f685db2",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/boot-reference/lunatik-susfs-start.sh",
+      "origin": "work/rom-build-r8/lunatik-susfs-start.sh",
+      "origin_sha256": "7edefd68ec3ac6f2e528160c71fddf2c46afcf41e7a056d8e5ad356125fd0354",
+      "sha256": "7edefd68ec3ac6f2e528160c71fddf2c46afcf41e7a056d8e5ad356125fd0354",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/boot-reference/lunatik-susfs-prepare.sh",
+      "origin": "work/rom-build-r8/lunatik-susfs-prepare.sh",
+      "origin_sha256": "fd89054e31c1f2a3e95ec141a990946cf6b5f5324bd60c3c58b4ced536df5398",
+      "sha256": "fd89054e31c1f2a3e95ec141a990946cf6b5f5324bd60c3c58b4ced536df5398",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/boot-reference/lunatik-aod-start.sh",
+      "origin": "work/rom-build-r8/lunatik-aod-start.sh",
+      "origin_sha256": "25c0c1a4e864d45c96e58fc6106fb5d18283a5f18e0304d4696f250762d271cf",
+      "sha256": "25c0c1a4e864d45c96e58fc6106fb5d18283a5f18e0304d4696f250762d271cf",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/boot-reference/lunatik-panel-guard.sh",
+      "origin": "work/rom-build-r8/lunatik-panel-guard.sh",
+      "origin_sha256": "fe6fea5549d4d0add945b3b8c611d6a871ad947ee3cb481ec8bd2ba98094abf4",
+      "sha256": "fe6fea5549d4d0add945b3b8c611d6a871ad947ee3cb481ec8bd2ba98094abf4",
+      "license": "Apache-2.0",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/Makefile",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/Makefile",
+      "sha256": "046a3e8389efcc67e0d12b143a3fac47799ca4276f4f2000cc2a1f7c58b6a854",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/btf_layout.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/btf_layout.c",
+      "sha256": "b63297d6dd5030d14d10f5ba9964b20ed4e6644b8703b60c9b2610e2b5a0770e",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/btf_layout.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/btf_layout.h",
+      "sha256": "a1c26a2bd1e8f6c7d316692524194b6b541b1227f3ec17d2bb60299fbc0dec04",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/fsnotify_lifetime.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/fsnotify_lifetime.c",
+      "sha256": "712e4399b8c06269e627d1d29b7097b1059e397e1c7328f93c44f5eac3cd3076",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/fsnotify_lifetime.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/fsnotify_lifetime.h",
+      "sha256": "fd2808d9850c93ba38576877f60fa43ecbb7d80a9268f865cda7184f056cfeeb",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/imports_guard.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/imports_guard.c",
+      "sha256": "d013c306b93da2a9e41b8a59e4486eb178a5c86bef0815a553c084f8c6fad739",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/ksu_allow_gate.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/ksu_allow_gate.c",
+      "sha256": "bc0a2b06b7b49aa88257cdfc87b3f1296d97263789aaa7759e6df465c589cff5",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/ksu_allow_gate.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/ksu_allow_gate.h",
+      "sha256": "dfae80e2dcd3a7fd5ab9c62ef132441263f51980842719c65dcf6948a5bc027e",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/ksu_umount_gate.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/ksu_umount_gate.c",
+      "sha256": "2308a6145697b0c09b63374226651b51006a497599579157d23bbc3a73f4511c",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/ksu_umount_gate.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/ksu_umount_gate.h",
+      "sha256": "94a8a5351993727f5d3bc065478dcc06af1a8b5a9ecceb02f00b1a2d51937baa",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/lsm_hook.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/lsm_hook.c",
+      "sha256": "5ea7c034819e604bd14b360aae40cca5f869f9e30b963e253817e781affe1779",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/lsm_hook.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/lsm_hook.h",
+      "sha256": "bc86c2fd3a75bd760aca39965aef9d8eac1f130e1fff037373ad7ffb52781ad1",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/lunatik_layers.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/lunatik_layers.h",
+      "sha256": "fad9448b95b821939d2a08a2e1db26150fbd9b90e5eb479ddb4322d6f7e21221",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/patch_memory.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/patch_memory.c",
+      "sha256": "a199466a5d43586c3fa0fd532e15a391a8ac0f80c2fd9248f00c7b0e9a85b14c",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/patch_memory.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/patch_memory.h",
+      "sha256": "7b301c8f768df683ee5afcb33faa437629944b1a6ac008125ea7eb2c4457b958",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/spoof_cmdline.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/spoof_cmdline.c",
+      "sha256": "484c876494abedfd12768eb68294a6c1e455c6c7d578052606758d633453fcba",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/sus_dirent.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/sus_dirent.c",
+      "sha256": "d73504b15ef6a370349d5456c1e9c8c895aa2252bc761081d11fc625f696bd5a",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/sus_map.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/sus_map.c",
+      "sha256": "4feea651feedc9e94bbe69373118aa925ef403b452465bde96803b8b7f0fb827",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/sus_mount.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/sus_mount.c",
+      "sha256": "3ba9132d8e878e0f16a7390399741e010be7eeca436aea9ee15e52a96b742681",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/sus_path.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/sus_path.c",
+      "sha256": "aeb3ed5bfa6746181eeacf56b4c601a97445d795cfd159fe983be24e60885582",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs.h",
+      "sha256": "c8bba4a1e537d6f7cec95836d645084f0db842734ccaf06254e0a70700fabce6",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_abi.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_abi.h",
+      "sha256": "0823f32539e778b165f573b83cf6673a8028adfbc55740cd8f85268374554ad0",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_avc_spoof.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_avc_spoof.c",
+      "sha256": "d8a1faa40d712db8163bf26a820cedb819adecab5d02b6318782b8aab6c6a9f0",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_enable_log.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_enable_log.c",
+      "sha256": "0446509d9dfee7f9a3c06c946292d45cf988214238eb69fd35a9baa11a7b1626",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_fp_hook.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_fp_hook.c",
+      "sha256": "02ac21a404a9b7e7b0bc2fe2b133afddcce829662b923f355c2c5f0a06c91079",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_fp_hook.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_fp_hook.h",
+      "sha256": "44f46f7674cebf2f957a7bd1484fc1eb76a82c84ff5cdc087d3b06430d3f04fc",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_hide_syms.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_hide_syms.c",
+      "sha256": "770eb4b125d2bcab97b37fd8444b3d311ba37638adc81ed1ab55d03fe64f1e01",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_kprobe.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_kprobe.h",
+      "sha256": "b258ce320e0ab05ed813f79ff668f1b3db89ced38ea00ea2e4729930087a1cb8",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_kstat.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_kstat.c",
+      "sha256": "e833b25b5d3a9b78ea8393fd0b244691227df47e76debbdab8acd4ee9dc4e93d",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_log.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_log.h",
+      "sha256": "da61e2a9f78d99dc0f85b5f31b404a40024a6df32b3fe462cd7fc7bfbbc7648c",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_main.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_main.c",
+      "sha256": "aeffad11a87188dbeee889ae31d6fc1b47eb68a93a51053578a6f3872c2eb8a8",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_opath.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_opath.c",
+      "sha256": "64b29a21ee4a3c138469b4871480d202298aa7b72268f558f4b00bc9995f0280",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_opath.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_opath.h",
+      "sha256": "4be025d8e0447d8341bd91cab0415d6332011544cd759709d6568add9afb5dc3",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_open_redirect.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_open_redirect.c",
+      "sha256": "d9df76c1f3024b5126e9ddac3b0e135aceeba74de0a62c04488aeb71b14e7e06",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_or_entry.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_or_entry.c",
+      "sha256": "91eccaa78e0105668db34e03d071ebf0d1be0688be51efa58993f7626fa0b240",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_or_entry.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_or_entry.h",
+      "sha256": "c7b1d7581ad658dae1f2ff4e6861112464804db528683d5b6df68d18cb367c09",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_supercall.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_supercall.c",
+      "sha256": "e0d502cd1c0db0fbca582ac1c77c2e9f9512d5967bf64f591ae4b81f0cdb82a8",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/susfs_uname.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/susfs_uname.c",
+      "sha256": "4fa914c7d35945e4f243f20f3896f917ccdbb5ffbbd19b6bd1afe66e5eaa87cd",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/symbol_resolver.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/symbol_resolver.c",
+      "sha256": "34bb04f46559c9d7e266a96a6290c291f3fe083ee93f19e37c6d22dae1f892e8",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/kernel/symbol_resolver.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:kernel/symbol_resolver.h",
+      "sha256": "8f1dc8ed3e0be3226915a7b486462eb0efe019f8889b18f3a92bdb2283882417",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/README.txt",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:README.txt",
+      "sha256": "04444bf69952ac945a0e4f6a092a36fff9026cd60b513516fe757fb98e0ec92c",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/LICENSE",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:LICENSE",
+      "sha256": "640d90f6ee401241ff62834d0d1b33f83049e99b8bfdfa04ed1b0a1635dde3e7",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/loader.c",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:loader.c",
+      "sha256": "9bfdf79bd00ceb8d9e62d3ecce08160619d4a9bfd9dcac7b502c09404772d7e0",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/prepare_exact.py",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:prepare_exact.py",
+      "sha256": "1f21030ebedcafde2800e2c2a88912a66199b3644b3536d4b9dd99cca431a022",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/mount.h",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:mount.h",
+      "sha256": "dc9970fc872f45135cec649c352f8d41cfbef5b48cae1d8709bea822138186dc",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/adaptation.patch",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:adaptation.patch",
+      "sha256": "b3e9a2ee0be8b1584b1cdf343c9653d8c9158781de2f2b2183e103bb09c8803a",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "components/kernel/susfs/ddk-manifest.json",
+      "origin": "R8 SUSFS_SOURCES.tar.gz:ddk-manifest.json",
+      "sha256": "d420122117fb8f3d82bf05462b9b7e908a6173535a89b282d3330106793a2232",
+      "license": "GPL-2.0-only; preserve upstream notice",
+      "status": "corresponding-adapted-source"
+    },
+    {
+      "path": "patches/r8/Settings/baseline.json",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "c3e5954c7dfff9b3bb893874d6b3740a75f7c16da7f732177017d0527da51cb2",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/integration.patch",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "1497cd450a3e05e04dd3b69958a2314a1ea13cfacfd70657da2a38e1bcb8cdb3",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/baseline.json",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "33f3c7865bc7d19383ee8283558547a881ade8ced6d3c232cbe06f6d258c21b9",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/integration.patch",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "f7ee7210e5128dd1f5c10fe1585b3962a79417da9477b455858ce1ffbac62474",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/baseline.json",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "54d48625b3dd1e981c0a6a8c7fd69e1c441a20c2ba028e4e9ad50986ec3471be",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/integration.patch",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "a20b69d0779289df5b1efaf7b02e7401eebc8a1f80bb858bcc269fa9d342cc00",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/baseline.json",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "d245e62a0c15b24bec6d828430020e7a2a121240d03b36415987c7d68c3d2c87",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/integration.patch",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "e996548a631ebf067f3992b5600d6faf5b3b29900cbcb0c19af117e02d065323",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/baseline.json",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "d863dc606b1103158d39b8a8f59738c323cde5afb5ee5fda8b80beb09e11d5df",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/integration.patch",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "297990c932215aa3f31f852774a9462f5304e5119f9d0c13acda0fabd6542d20",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/infinity/localization/RuUiText.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "1784ae84066fde4199e710d525281d3ef23cd87a7a162f276c0d9c4ec1599ea9",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/notification/LunatikTouchSoundPreference$$ExternalSyntheticLambda2.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "03b4c64e9ce45ef0519ba306b22f3c9f4237627284091ff14c97a07f5ea16039",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/notification/LunatikTouchSoundPreference.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "cb4f967e99d250c9904ff34423640f1992a3375777f4af7d6b9df8cd9657dd71",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/notification/LunatikTouchSoundPreference$$ExternalSyntheticLambda1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "8324759e12d54567e1cc3a77c3bfbfbea855d7c15b39b4059a3c49a85d64545b",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/notification/LunatikTouchSoundPreference$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "da1a884847d553e0323c3d65736e0d719ee229adb4f0dc6d27084e96a62e606a",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/display/BlurSettings$$ExternalSyntheticLambda4.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "a13fcc7cec1da5e29f634b803185582ea474bbdc27d7dfb08dd70014dfed0de6",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/display/BlurSettings$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "22ec499c6f0f1d9a4284f70e2368facaeabe1e15d43118858010a0648d2196f0",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/display/BlurSettings$$ExternalSyntheticLambda5.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "2ba7382e5dde9fee2e1f8db233d1e1f1f0e0fcc78a9aea4429bdf4749355c83c",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/display/BlurSettings$$ExternalSyntheticLambda1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "565807619a23400248302f7eaf8bb917b756428a4d14d1f2d84b7fbd904a8c97",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/display/BlurSettings.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "74b11604435781776e3d5f0bc8adac2256d9419f61f595dad35374716de5761f",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/display/BlurSettings$$ExternalSyntheticLambda3.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "7ae4becade3ef6e1e5307083216b07f8e1082ed793f55e2b107890c9f6c82aab",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/display/BlurSettings$$ExternalSyntheticLambda6.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "61d027b7aa4b3b5eafaeed321a091ebd9d3c8edec0052b807dd1df002009df6d",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Settings/added-smali/com/android/settings/display/BlurSettings$$ExternalSyntheticLambda2.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "c17698057a4ab8e3c09b214bff0bf7d25c2ede14431c96f5af7eb2d8137ec0eb",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/LunatikBlurExport.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "f5fc140e506ce5dce176e73a823749e5e4ca41d04ecfbdd7302365cf39026a15",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/icons/LunatikLegacyPlate.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "83f7f84c8f964357f278dfdc27d757b059fa38b3f0a39aee21550320599c712c",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/icons/DrawerLabelToggle.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "5796cea8b7cf09cf2ded7457e681ca2e3b6de77a820fb0d31dddec752b1b200a",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/icons/LunatikThemedIconRefresh.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "9dce1a223cbecc1b4615f15994888d02dae0e8eec8e43192482be6029b2ae5ff",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/icons/LunatikDrawerLabel.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "95245ceded6d245003d6e2e8bcc63b3cde2bb9d0421add81467363c1a57efecb",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/icons/LunatikWidgetText.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "f3688c8ea9b39c32509bf5483b0b6e2ac4f1684444637b998b1df2ac3f8f8812",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/icons/DrawerLabelToggle$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "f193e8218559b136962a4b0f7c5b80155548b2016cb260b2ba11f5ebe718e2e7",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/icons/DrawerLabelToggle$$ExternalSyntheticLambda1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "58c15f991c8653001326175a4186e18a706b78fe5d9be7b8012c1e19ed07d60b",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/qsb/QsbGlass$Material$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "fa2827f9f0b65a813f0c5882a71df03858cdd364c635a30052068b6454ef99bd",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/qsb/QsbGlass.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "9a8d6f419b2e7c0e8c0a3b2650b81c8b6aa3652d9053f53d8f1ed7096ab92d63",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/qsb/QsbGlass$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "6ed8e716741a179d77d23f6f83fb2160bd63bcca8467c0605c43722121088c30",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/qsb/BlurModePreferences$Watcher.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "f0bdb1a87d783d55fc0f75b701ab083625839b2a0f1462287fe6c99553c6e2df",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/qsb/QsbGlass$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "8942ae046d4323f8a3eade20c47cef2808315c550aaf3b8cb9882a022d9bb303",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/qsb/QsbGlass$$ExternalSyntheticLambda1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "d7472a8244c6912a18a33cb169cdd87752798b8651bc853715e9b2ffd0481a68",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/qsb/QsbGlass$Material.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "f707dcdec9da13352956774d625a7815e76d47fd45097e35858f6fe18b7041be",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/qsb/BlurModePreferences.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "7d0614e257065b7972d673995a10b4808a632fcb3640cf7dfb0e4335b0a31881",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/Launcher/added-smali/com/android/launcher3/qsb/QsbGlass$Panel.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "9cd6a1b0292028b372d269af658d4cb41bddaecc472dbcc81961660b3dc03b7f",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/keyguard/OnyxLockHaptic.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "54c76a187d78b2720c0b3cf69dbc862d23239eab454fdf4bc2d5085ff274bb12",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/keyguard/OnyxLockHaptic$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "d1a3bd4f7e483f01bb78729791c640895ce2d97a8e75e74e6f1b29ab69f75687",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/keyguard/OnyxLockHaptic$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "c54f0862f0ef09ad51f738b5e407e9620da37ea28ef2ad04c85c1883f9f2bb45",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$3.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "ff261a82be5a5dab33f61e39fcd9020dbbfc23043b24c46545bee7f676fb5c02",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikIndicationFade.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "872f9be674ab60b5f0ae525b1a56d85215e92deb5e96723e032ea768a23d535a",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$8$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "f30c48754a5f3624c53b7a726571155409bff3f899af64bc574b617457df5bba",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodPocket$2.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "f872c921a164f54deddde01eb4c9a96582664830f2693c4cb01de1215a889a5d",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/PocketFingerprintGate.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "225768c5c31885730cafc4dd57f1ea647f749b5d572ca6e9c4966cbad8972475",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikSleepUi.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "7b9caef091522e11c74beea0c52ce7bad1e2f62c2da0a1fc04978d18e09f8739",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$11.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "d51ce789deae2cc440aa99b8c65cf54bca530c8dec4632ea75fa3f3fed1e4c97",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$8.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "7f58a4a8c5365872039096a03fb6a1eb886adfd7fc6bffc068740ad0fefd2981",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$4.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "4e2cc47ae0bae3dc1a86daef2e68e38e0305e7a415e65f43d67f60ca617edb3f",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$7.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "760f8abdf6bb9100facf45e580fa3278e9bd169a669ce0160931a376fc92d19b",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodPocket.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "80408e5c2054db305408c3f89feb40b6f3d68ae1e64dd17b15ea6c439a9199b0",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$2.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "c4d316809edf64124333b0b0fb2fe5f6ffc115c9e0766bd6b9233ecf319d91e0",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$10.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "550fa8cdba1778c104fc5cfca55864245f71e7b215a6d3c18c5cb6a3d249a703",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/PocketFingerprintGate$$ExternalSyntheticLambda1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "0101ea497c5645407a0141e1549f206e76e3886b3632c9072764c54058d374ed",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodTransition.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "4aeb65cfa717e11e9cee9b32b136ae94c7c70ac2530f2158fbd51551deb550c5",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$1$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "2846d727b9e1bba51b82aba83dcd16b7207eb11d2a08b5bf3a2104bb381c7840",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/PocketResume120$$ExternalSyntheticLambda1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "e344c98f165e38eee71317b8309c0c292958028441d8c96008fed749622fd45a",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "7cb8a661c7e31ba65515bc33500d1ed3bc75e9f63fb49618037ecea55c80b552",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$9.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "5c147c5c437dee20f6152a2448ac6e42665effa77ae145d495baa81f566896ff",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$5.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "b2fb41c25747eb702174dd3c27f1e8ae95f90a4034542890763605d947806684",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodPocket$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "6845951b9eb449c6df869e5650453e2c5dbe7b009fee110de1fcdcbcaad91769",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "bf9eab206646dd029e5000c1e6fd91886deac1b464ad5368a4f0090b1c57e221",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/PocketFingerprintGate$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "51dc31176a029d3f2e4f2ccd37921f00fb2019928608d7a9eb04aa16da345d35",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/PocketResume120.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "b1aae6be56395d6982a38110e69650b7a6b8f3390e94e664712ce401763f1029",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/PocketResume120$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "9aa022c806b420487df7546fdcf884623b4fde5abda76095ef07c4fb047afacf",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/LunatikAodVisual$6.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "5f3c651c1aaf88585e29016ef45322b17e8914e28c681517d9bcfb9949268c47",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/doze/PocketResume120$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "fbb522bfabf09fec173e835e028f8d4d365d9826e9fd1a79170e900f58d28992",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/LunatikBlurConfig.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "98e2f7c8ee4606dba002f77dc24c8a201828babc9b3f421af070f452522ec7e6",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/LunatikBlurConfig$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "5992b0096068531b706504e2883379add749d09dfd1500bd26e64d3c754ab510",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/notification/row/NotificationGlass$$ExternalSyntheticLambda2.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "ae71a9a0389d611db3923da6b9c970ea7f291ce9832bba99b0b5e69130b577b0",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/notification/row/NotificationGlass$2$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "bea15549fa3549740142ea7835c0b2999ab22e7f4fe01c3e3b41cc5c445b1ab2",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/notification/row/NotificationGlass$$ExternalSyntheticLambda1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "070c544590cbf650a8d87cecbc8fa013ffa438a2f875af8fa81f44a332608a32",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/notification/row/NotificationGlass$2.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "a4d256b72c8b611d9ad5338079debef6f006fde3ab42c4126417424910cac241",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/notification/row/NotificationGlass$Material.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "d62195979cdd1140606017ac260b8d9d35a0ae72ba8b2e7a90d29d474cfe7335",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/notification/row/NotificationGlass$Material$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "2da95ccc7c99524b2b3737fc16d1a9e6d895cfec055094f4715687d7fe82a219",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/notification/row/NotificationGlass$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "a9216da0a7ef0349958fc7c9050e8e0d1a8f3ac089830391b4379aa146ac2047",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/notification/row/NotificationGlass.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "a92f58ac92850d1076740059224044d02cf6ee6133eede201476fe8ca48f26c5",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/notification/row/NotificationGlass$Material$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "b3f0522a38c1362968974d30afabeb28b9df3865a5c4af2145f97293a53a231f",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/systemui/statusbar/notification/row/NotificationGlass$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "d5f2eb26726dbc4def0096cf3ce29f18812e070bab9be0d77331d8d41edea6b8",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$Opening.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "07eecfac1bfd89d7dbb702cdd398e4f39665905f210a04ccb1897eb68bd84e07",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeform$$ExternalSyntheticLambda1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "03921817b447c84b294548e13d7559b0c176ddc7854195202a6e6f284b303bdc",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda4.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "2c570345b8cdc3b8f244193a3585ae52032c807c6ce32f16fed00ecf24887e38",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/EdgeFreeform.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "e94d051c96df0fef2ded54195ae3b707c84308f9302526fce1c3bc402fd34b32",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$3.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "c56305afd408938e2fbd5ddefa4ad7bbcb4faf8f0dcb790e096b43d5d916e70c",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "d774b62b69172b4584ef98d2511a4695fa0349e42d89472350d044bc945bbce3",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "100b24ad350437235424734ceab531269d7342d0dbfbb144ec4fce26091152d0",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda3.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "2b984342ed79b113c83f8879e95cfa570a0f5c860acb19937bbf444026d554ea",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "1a33e93435468760085fdbaede9e5f5466a5b7d82bce26ea74cbf272070bc326",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$2.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "83f5dd622eff7ab182c3d88bb0a17e92c4148fc512c9f57a9b7be7f2d7273d3c",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda5.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "bba78a67ee57cc0657d3cb4b7b2ee079272da0b1d683824e9c5859effb35c31d",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeform$ResizeFrame.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "86936d012dcb16fc5c6e530a45fbe13582097affb253ab372a37dd4ed4229334",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeform$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "6fc98a505dcb7a3a8cce443fcdfc74d18537a994df900abf5ad10aeb199031be",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda11.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "6c22ae8f74d8193e4f7b21803b9a2b0517746ca6e61498f30270a929d887fcec",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeform$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "1392f60a584a077fa6f3e7be25edc270a12bc807bc7f4a23572fdf01541cfbc4",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda9.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "22e5941cedd947c110f3672f237a893ad64b5d4ab37d3d7a9ac1da6aa172926b",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$State.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "e6b325372b9897e3d3f4b4e0fcbdd7ce2014a6e8d26fcb973b9fac813e931600",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda8.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "08bdba4a08c04c06ff970e0d88fe5bbcca6ff024402a71865512603e547f8dad",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda2.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "75b14c598e947d2acb902c87f09e1eb9f050782870ec81f935795ecd3f85fed2",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda6.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "30c186e6460cc524a9af09e73daa827526c4341bbc4d7ffacaf9ccac3828319a",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda12.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "27c8392c1268cbd0eda36dd52f78384d1b3fcf9d4c6717973d84a3278e1cbb95",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeform.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "8ad070919fb42487fe08cb05116f394559b0a3465a9ed905fc5e7507b4f906fe",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "46c45f89377ada850d9f1f16f4a468f9dd40850114386e60e9af5c4474a5393f",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/EdgeFreeform$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "204dc90532bdf5f1cf023f151c40f9de12bde9b0007fa89857c903b60159a726",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeform$$ExternalSyntheticLambda2.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "52a065bbaa05d57c59195d3645ba212a63c78ea69c185af98593f76087330aa6",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$Dots.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "f894e99727e30d32dcd4449e991420070e5b04846d344a9fc63f47b8605e6652",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda10.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "2856f17a5680c116d94615ee38e5ae8dbd0e2e383f5d523c6e763f6aa28f2d26",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/EdgeFreeform$State.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "b0e83f18d941fa6920d535e99d220be24052dda96b6c4c22536343d2bb880f20",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/SystemUI/added-smali/com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda7.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "0947025147ccce996702147db91455b77f0c331751b05317013cb32d464c28eb",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/pm/LunatikOptionalGooglePolicy.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "321e243dc419936c6a9ccd2fca3748db8bd371df3136685a1a7062c35685bd07",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/audio/TouchSoundConfig.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "8f0df9070c8a713b04d834af9fd646118dd3e6e4e821a58e016594c8ea9521c9",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/display/LunatikAodWake.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "e9fc5361b7d85e4905f5176dc529366b65f5ccb0c866df268f3ddc443035ef04",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/policy/PocketWakeGate$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "b4dfa3eaf6e6acccec8fea25e01b5b0d609172f857db12a982086e157c674fce",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/policy/PocketWakeGate.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "527f352d62024c1a384babf3c58b5691eb7a96926f7b9ca1c655063e4aa534cc",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/policy/PocketWakeGate$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "364a184e177ee9b24350b8c49710330a3c4a8260dcbaa5ea9a6e19537c5895ae",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/pocket/PocketSensorCompat$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "94dfa62235690dfe243f01a560074b38711bf9a8e35a2d9c93acccd4c7abedd5",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/pocket/PocketSensorCompat$State.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "bdbe3577ea9b844bde14303ef1041ed24d6f827ffbfcf574da6d244d7c1b26c8",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/pocket/PocketSensorCompat.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "d82d5865d6bef54f0f6f5be47a912d6cd9324963d5847b3bbd1d89e83ac4c768",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/display/mode/LunatikAodBrightness$2.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "2e405957a21b9b790febab107a6edb5067ba0bfcf1109436bb29771a62f2d496",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/display/mode/LunatikAodBrightness$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "b91b951e285b46fecd2abbec04ad0a114870b2abf1418adab20d471bb1ac5062",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/services/added-smali/com/android/server/display/mode/LunatikAodBrightness.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "3e364e2d628abf32ae148cb5457ac6b554ac0e6efb88982b358d529be42c1383",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/infinity/localization/RuUiText.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "963c117d5a6cf083c1fb967dd875e9a13fc56ead9568f16ca3a1fb6f7019c661",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/gamebar/LunatikBlocks.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "2b1c9aeee0662915ebf1fd17b2243f4c0d478e6663899ac1355d97f58573a72d",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/gamebar/LunatikPanelSize.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "d09d8df5eb8e1ba765dc596ba4a02d16a000ccd973afbdf5461b762d708c8785",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/gamebar/SidebarPolicy$1.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "9808673ee829c0b02ad036e07def29d4329efe34c129a8a8db3b05f3699e34c8",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/gamebar/LunatikBatteryView.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "aa7c048267f43064f0723981f6210950831d8f285cd0f44795bf2e81af57a8cb",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/gamebar/SidebarPolicy$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "8a0967cc9ab0b9cc8d0b2013edb69a362e1fb0904c741015d7af04b23f32aec4",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/gamebar/LunatikBatteryView$Update.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "716106a64285dcad16dd3a884733e07e7d762e48938bb5b9f234dfe530b1a340",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/gamebar/LunatikBatteryView$Factory.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "3aecda4b93039abfd7ff641c9421ed15899f46e5648dd907d203f538de7909ef",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/gamebar/LunatikBatteryView$$ExternalSyntheticLambda0.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "f60890cabd47fa0a3860f199c0e0afa2d09b68df522a05a9fccb54310cb822ad",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/gamebar/SidebarPolicy.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "3093f768fbcc96cc4eca0b54985aee4f937f373d017da4564f26deefe78bbac7",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/gamebar/LunatikBatteryView$EmptyFactory.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "b3a4ffbc7c5aa87a001029ee5579d11d8a8341bd1a9c828b90fbb0405d1259da",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "patches/r8/GameSpace/added-smali/com/ireddragonicy/gamespace/hub/FixedPanelAppearance.smali",
+      "origin": "deterministic R8/base DEX comparison",
+      "sha256": "3a63dc3b3104866255557ee679e164db6568519ac8363b92139b8f938c933834",
+      "license": "upstream-compatible; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/patch_cameraserver_raw.py",
+      "origin": "work/patch_cameraserver_raw.py",
+      "sha256": "b2f9f7205fd1f7f235a2ff113430b949d44fa2ff045d185ce97b7bb6873987d9",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/brightness_calibration.py",
+      "origin": "work/brightness_calibration.py",
+      "sha256": "f346d996224e64ce156e5d0d3d84d7e0dc6cbe9c189bfa86ef53c48df0bdcf84",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/tick-preview-strength/patch.py",
+      "origin": "work/tick-preview-strength/patch.py",
+      "sha256": "04cbc28b521b94d24feef096b22ae89a121a1b9b51ab607491d8b2396c7ca4b7",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/tick-click/patch_hal.py",
+      "origin": "work/tick-click/patch_hal.py",
+      "sha256": "9de36ed98bc275462a8a7bfc09d7dea1a4dd1109d9eb66dcc075183b37c5f117",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/gamespace-fixed-appearance/patch.py",
+      "origin": "work/gamespace-fixed-appearance/patch.py",
+      "sha256": "7e3e07e57b08d734f010fbb6fab254fa09fdc1275752b79df17dee94261bce06",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/gamespace-fixed-appearance/finish.py",
+      "origin": "work/gamespace-fixed-appearance/finish.py",
+      "sha256": "99eee1b35962909328d0231d150f88217b94441b32bb06b6fbb975059891f796",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/ru-full-apps/helper/RuUiText.java",
+      "origin": "work/ru-full-apps/helper/RuUiText.java",
+      "sha256": "fff87d5d2d866b39ed4b561071002e326c2e0c4115030f4901f60f21e165c11b",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/google-services-universal/src/Prepare.java",
+      "origin": "work/google-services-universal/src/Prepare.java",
+      "sha256": "a2069bbe2c60ebb5d4105dba9539432f92617c8acc067f47711814ecd0ccac5a",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/google-apps-refresh-20261024/stage.py",
+      "origin": "work/google-apps-refresh-20261024/stage.py",
+      "sha256": "2bb6a635379afd1930c0edbf20ba4a348d233a266f719651ac2f112fe8f00aae",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/google-apps-refresh-20261024/permissions.py",
+      "origin": "work/google-apps-refresh-20261024/permissions.py",
+      "sha256": "656a9a41936bf7676b57941a573d547736742fcacd803ea02ac995da54a541d7",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/reference/work/google-apps-refresh-20261024/verify.py",
+      "origin": "work/google-apps-refresh-20261024/verify.py",
+      "sha256": "96c553b69a3a55369922106644aa58713bcb87d0fda7d4d43a68e686681ae40e",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "integration-reference"
+    },
+    {
+      "path": "components/additional-integration/native-deltas/cameraserver-raw.json",
+      "origin": "work/rom-audit/system/system/bin/cameraserver -> work/final-release-v3.1/runtime/cameraserver.raw-compat",
+      "sha256": "d4814e56fa817e3e09fe98a8079809175f94fb29faf1e665a51447fd34dd4e8a",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "exact-r8-native-delta"
+    },
+    {
+      "path": "components/additional-integration/native-deltas/vibrator-effect-strength.json",
+      "origin": "work/rom-audit/vendor/lib64/vendor.qti.hardware.vibrator.impl.so -> work/final-release-v3.1/haptics/vibrator-preview-strength-v3.so",
+      "sha256": "648d1c946763208fcfbd94a77f4770b715b95d591fdf70c360c4955bc2175ab5",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "exact-r8-native-delta"
+    },
+    {
+      "path": "components/additional-integration/native-deltas/pal-voip-gain.json",
+      "origin": "work/rom-audit/vendor/lib64/libar-pal.so -> work/rom-build-r8/files/vendor/lib64/libar-pal.so",
+      "sha256": "52dc53e3cd18d6c8d0ffc283900edb0d457176bf6977be23075d29e91a3535be",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "exact-r8-native-delta"
+    },
+    {
+      "path": "components/additional-integration/native-deltas/health-time-estimate.json",
+      "origin": "work/rom-audit/vendor/bin/hw/android.hardware.health-service.qti -> work/rom-build-r8/files/android.hardware.health-service.qti",
+      "sha256": "24c34fa0c2265b40c7bb48997a8de6f88d50cc0665ca5a53646a682a2ff48fc1",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "exact-r8-native-delta"
+    },
+    {
+      "path": "components/additional-integration/config-deltas/cyrillic-font-fallback.patch",
+      "origin": "work/rom-audit/system/system/etc/font_fallback.xml -> work/rom-build-r8/files/system/system/etc/font_fallback.xml",
+      "sha256": "d51f15705a6c2c91ee779cc53c41ff3a15427838a0718d1b5e6dfc85fa32a0a6",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "accepted-config-delta"
+    },
+    {
+      "path": "components/additional-integration/config-deltas/display-brightness.patch",
+      "origin": "work/rom-audit/vendor/etc/displayconfig/display_id_4630947173316895379.xml -> work/final-release-v3.1/runtime/display_calibration_accurate.xml",
+      "sha256": "bc84468bdb2c0a3f55498d606c2945b0871db2e5ab2f6fafddcdd236b14dd35d",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "accepted-config-delta"
+    },
+    {
+      "path": "components/additional-integration/config-deltas/camera-overrides.patch",
+      "origin": "work/rom-audit/odm/etc/camera/xiaomi/overridesettings.json -> work/final-release-v3.1/runtime/overridesettings.sdr.json",
+      "sha256": "382c8f4acc8b9f7cc426e697da22b3ea5f6b3150b2b49386aa02b9486c4697cc",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "accepted-config-delta"
+    },
+    {
+      "path": "components/additional-integration/config-deltas/audio-volumes.patch",
+      "origin": "work/rom-audit/vendor/etc/audio_policy_volumes.xml -> work/rom-build-r8/files/vendor/etc/audio_policy_volumes.xml",
+      "sha256": "f8b7f5c92fa9f15ba07d49406a6ebee3dfe73f8e288839f9d93d8230b399a2d3",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "accepted-config-delta"
+    },
+    {
+      "path": "components/boot-reference/panel-guard.cil",
+      "origin": "work/rom-build-r8/panel-guard.cil",
+      "sha256": "29357c4d191b2acb6bae7bb91940e4eb2f757dcb835386c9f94be37727a7c5c4",
+      "license": "Apache-2.0 original recipe; upstream target license unchanged",
+      "status": "accepted-policy-source"
+    },
+    {
+      "path": "patches/r8/Settings/class-map.json",
+      "origin": "R8/base DEX comparison",
+      "license": "Upstream Apache-2.0 components; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference",
+      "sha256": "74f954d94bf6ef4ed4a8fbe786d9ad2c31be243eb9989e6b3a67fc1634fe6527"
+    },
+    {
+      "path": "patches/r8/Launcher/class-map.json",
+      "origin": "R8/base DEX comparison",
+      "license": "Upstream Apache-2.0 components; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference",
+      "sha256": "9c12da6b48f2979701467b618308339bdb9be4c84bcf451177e609f043a64e8e"
+    },
+    {
+      "path": "patches/r8/SystemUI/class-map.json",
+      "origin": "R8/base DEX comparison",
+      "license": "Upstream Apache-2.0 components; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference",
+      "sha256": "3d58e1ab30a8b27a201773e9d97e499f723521d7a74ed831ccd8f7051e7b2ab4"
+    },
+    {
+      "path": "patches/r8/services/class-map.json",
+      "origin": "R8/base DEX comparison",
+      "license": "Upstream Apache-2.0 components; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference",
+      "sha256": "5e320b0521d1275b23014ab16cd64cd01d54dc3b93a36ff1ffdf040a063154ea"
+    },
+    {
+      "path": "patches/r8/GameSpace/class-map.json",
+      "origin": "R8/base DEX comparison",
+      "license": "Upstream Apache-2.0 components; see NOTICE.md",
+      "status": "exact-r8-bytecode-reference",
+      "sha256": "a31d8e4c678c7407054133278129e7a5d133a5fc6bbdbf1bb0adf858cbc40228"
+    }
+  ]
+}

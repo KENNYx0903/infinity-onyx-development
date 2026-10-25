@@ -1,0 +1,25 @@
+--- a/vendor/bin/vendor_modprobe.sh
++++ b/vendor/bin/vendor_modprobe.sh
+@@ -13,6 +13,9 @@
+ # vendor modules partition could be /vendor/lib/modules or /vendor_dlkm/lib/modules
+ POSSIBLE_DIRS="${VENDOR_DLKM_DIR} ${VENDOR_DIR}"
+ audio_arch=`getprop ro.boot.audio`
++# Bootloader hardware region, evaluated once before loading vendor modules.
++INFINITY_HWC=$(getprop ro.boot.hwc)
++
+ 
+ for dir in ${POSSIBLE_DIRS} ;
+ do
+@@ -53,7 +56,11 @@
+ 	fi
+ 	# load modules individually in case one of them fails to init
+ 	for module in ${other_modules}; do
+-		( ${MODPROBE} -b -d ${dir} -a ${module} > /dev/null ) &
++		if [ "$module" = "aw882xx_dlkm" ] && [ "$INFINITY_HWC" = "CN" ]; then
++			( ${MODPROBE} -b -d ${dir} ${module} cn_gpio_fix=1 > /dev/null ) &
++		else
++			( ${MODPROBE} -b -d ${dir} -a ${module} > /dev/null ) &
++		fi
+ 	done
+ 
+ 	wait

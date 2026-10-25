@@ -1,0 +1,11 @@
+# Integrated SUSFS. Author: lunatik_kenny.
+# KernelSU creates its enforcing ksu domain before Android boot completion.
+on property:sys.boot_completed=1
+    start lunatik_susfs
+
+service lunatik_susfs /system/bin/sh /system_ext/bin/lunatik-susfs-start.sh
+    user root
+    group root
+    seclabel u:r:ksu:s0
+    disabled
+    oneshot

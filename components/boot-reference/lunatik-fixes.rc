@@ -1,0 +1,20 @@
+# Infinity integrated fixes. Author: lunatik_kenny
+on post-fs-data
+    chown system system /sys/class/touch/touch_dev/fod_longpress_gesture_enabled
+    chmod 0660 /sys/class/touch/touch_dev/fod_longpress_gesture_enabled
+    write /sys/class/touch/touch_dev/fod_longpress_gesture_enabled 1
+    start lunatik_panel_guard
+
+# Override both fresh-install defaults and a persisted value from an older build.
+on property:persist.vendor.EnableP3ColorSpace=1
+    setprop persist.vendor.EnableP3ColorSpace 0
+
+on boot
+    setprop persist.vendor.EnableP3ColorSpace 0
+
+service lunatik_panel_guard /system/bin/sh /system_ext/bin/lunatik-panel-guard.sh
+    user system
+    group system shell
+    seclabel u:r:lunatik_panel_guard:s0
+    disabled
+    oneshot

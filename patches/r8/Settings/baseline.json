@@ -1,0 +1,8 @@
+{
+  "component": "Settings",
+  "base_sha256": "fe71b10f26eeec82e40f447a87bf07b6bfcffc15ba4f832230cb4f4243aae8c9",
+  "r8_sha256": "c901882b47e0288c5ab5a5ce20eadc1509dd178d8b7f727300cf2959c4d19d1c",
+  "changed_classes": 12,
+  "new_classes": 13,
+  "excluded_new_classes": []
+}

@@ -1,0 +1,10 @@
+# Experimental AOD; exact-kernel, paired suspend/resume retention.
+on property:sys.boot_completed=1
+    start lunatik_aod_retention
+
+service lunatik_aod_retention /system/bin/sh /system_ext/bin/lunatik-aod-start.sh
+    user root
+    group root
+    seclabel u:r:ksu:s0
+    disabled
+    oneshot

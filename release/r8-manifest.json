@@ -1,0 +1,685 @@
+{
+  "revision": "R8",
+  "date": "2026-10-25",
+  "rom_sha256": "ffd1822c968dbca4166933fc0dc25b9e870d7caee30fded54de342b603e60351",
+  "entries": [
+    {
+      "id": "google-sans-flex-cyrillic-fallback",
+      "partition": "system",
+      "image_path": "system/etc/font_fallback.xml",
+      "sha256": "28ce9c67272ff78705a71813d4603c8f21606f4d3243e5e52590f0a983c9e3b7"
+    },
+    {
+      "id": "launcher-lawnicons-live-refresh-ru",
+      "partition": "system_ext",
+      "image_path": "priv-app/Launcher3QuickStep/Launcher3QuickStep.apk",
+      "sha256": "e6e2591c4cc555d92720cc8367c13c768457fb7078dcf1257960df691f795293"
+    },
+    {
+      "id": "google-weather-Weather.apk",
+      "partition": "product",
+      "image_path": "app/GoogleWeather/Weather.apk",
+      "sha256": "df581190f9450514c592737e9f1d2a023cfdf0ae3ce83e9d93ab2bad40d504a2"
+    },
+    {
+      "id": "google-weather-split_config.arm64_v8a.apk",
+      "partition": "product",
+      "image_path": "app/GoogleWeather/split_config.arm64_v8a.apk",
+      "sha256": "e1d348aa425fc59555a3abe50a2fa154b97740b3347f80284ec7685446d83cfc"
+    },
+    {
+      "id": "google-weather-split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "app/GoogleWeather/split_config.xxhdpi.apk",
+      "sha256": "1af0a55c1811b3d72fd98072c0c1e34b1c5071083864979c6428d674ee1958e9"
+    },
+    {
+      "id": "susfs-remove-deferred-verification",
+      "partition": "system_ext",
+      "image_path": "bin/lunatik-susfs-start.sh",
+      "sha256": "7edefd68ec3ac6f2e528160c71fddf2c46afcf41e7a056d8e5ad356125fd0354"
+    },
+    {
+      "id": "gamespace-redesign",
+      "partition": "system_ext",
+      "image_path": "priv-app/GameSpace/GameSpace.apk",
+      "sha256": "56d01ba656f843f489706bd7287c03aa82f878e1ed0c078e13de7b5e4ea89df4"
+    },
+    {
+      "id": "remove-whatsapp-voip-profile-workaround",
+      "partition": "vendor",
+      "image_path": "etc/audio/audio_module_config_primary.xml",
+      "sha256": "6cb65bbac5b927cc3d961fdbb688283d04e049220ccb0fbf51d82433d3543251"
+    },
+    {
+      "id": "settings-remove-aod-wallpaper",
+      "partition": "system_ext",
+      "image_path": "priv-app/Settings/Settings.apk",
+      "sha256": "c901882b47e0288c5ab5a5ce20eadc1509dd178d8b7f727300cf2959c4d19d1c"
+    },
+    {
+      "id": "whatsapp-voip-master-gain",
+      "partition": "vendor",
+      "image_path": "lib64/libar-pal.so",
+      "sha256": "4b5c8413833373dbc364333ed762670c2044e407b2421b2d7fa675c696de16ed"
+    },
+    {
+      "id": "whatsapp-audible-call-minimum",
+      "partition": "vendor",
+      "image_path": "etc/audio_policy_volumes.xml",
+      "sha256": "daf419e74683302fe038346b7358b93236dc93d2455a5ab9f7330e8218b7d90f"
+    },
+    {
+      "id": "aod-spoof-independent-start",
+      "partition": "system_ext",
+      "image_path": "bin/lunatik-aod-start.sh",
+      "sha256": "a3f36ab82bd143861bf249e86dcfbb30873e39872e85c2079fea44289faada48"
+    },
+    {
+      "id": "settings-hide-aod-30hz-min-and-max",
+      "partition": "system_ext",
+      "image_path": "priv-app/Settings/Settings.apk",
+      "sha256": "c901882b47e0288c5ab5a5ce20eadc1509dd178d8b7f727300cf2959c4d19d1c"
+    },
+    {
+      "id": "aod-current-systemui",
+      "partition": "system_ext",
+      "image_path": "priv-app/SystemUI/SystemUI.apk",
+      "sha256": "e3ebd9948190b35a174212202117d56f14f6d006847c912edf8650fdf812be61"
+    },
+    {
+      "id": "aod-current-services",
+      "partition": "system",
+      "image_path": "system/framework/services.jar",
+      "sha256": "d56c9d01225cd62387e3e51a9f2259f2895ec02ed6df8a6b42ff8556f93bc670"
+    },
+    {
+      "id": "ru-translation-com.infinity.updater",
+      "partition": "system_ext",
+      "image_path": "priv-app/Updater/Updater.apk",
+      "sha256": "208f3401a73290fa6f046d847f72daad81960c8738c27e85a31468efcb8f9dc8"
+    },
+    {
+      "id": "ru-round2-com.android.axion.axthemestore",
+      "partition": "system_ext",
+      "image_path": "priv-app/AxThemeStore/AxThemeStore.apk",
+      "sha256": "08b97ccd2e727346a74d3c4e6f859f2cb73f7a55835ac3eb16057c92516af011"
+    },
+    {
+      "id": "google-updated-com.google.android.googlequicksearchbox-priv-app_Velvet_Velvet.apk",
+      "partition": "product",
+      "image_path": "priv-app/Velvet/Velvet.apk",
+      "sha256": "c6897a767bff8c2844fbb01d4185f107422445af71a5e6ba5847eb46b25b4814"
+    },
+    {
+      "id": "google-updated-com.google.android.googlequicksearchbox-priv-app_Velvet_split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "priv-app/Velvet/split_config.xxhdpi.apk",
+      "sha256": "3208f82896012d288e5cd04fe48a59432ca22c4a41995368a274d4d10e245bd2"
+    },
+    {
+      "id": "google-updated-com.google.android.googlequicksearchbox-priv-app_Velvet_split_lens_ondevice_engine_play_ml_module.apk",
+      "partition": "product",
+      "image_path": "priv-app/Velvet/split_lens_ondevice_engine_play_ml_module.apk",
+      "sha256": "5ecad400a294021ceaade03379f17530501c950cc58b8f25b21506f042415b88"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.messaging-priv-app_Messages_Messages.apk",
+      "partition": "product",
+      "image_path": "priv-app/Messages/Messages.apk",
+      "sha256": "3bf866bdf622954d6c1de7578aa5ba7c95f974736476a82af7d54fe5c8d5af19"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.messaging-priv-app_Messages_split_config.arm64_v8a.apk",
+      "partition": "product",
+      "image_path": "priv-app/Messages/split_config.arm64_v8a.apk",
+      "sha256": "2931a14a64c8615482b8de031f6f33eb4ecf1bbffb939549a500bc93ccbaf393"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.messaging-priv-app_Messages_split_config.ru.apk",
+      "partition": "product",
+      "image_path": "priv-app/Messages/split_config.ru.apk",
+      "sha256": "ca5237aea99c821c28765472c6c152452f11874324cc8719a51f9097157ec889"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.messaging-priv-app_Messages_split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "priv-app/Messages/split_config.xxhdpi.apk",
+      "sha256": "d016101ad1c7527a730ed0e0cd06a19ea9965e39c4ad0c5b3d4d5ea5bfe32f01"
+    },
+    {
+      "id": "google-updated-com.android.vending-priv-app_Phonesky_Phonesky.apk",
+      "partition": "product",
+      "image_path": "priv-app/Phonesky/Phonesky.apk",
+      "sha256": "5d062e4acbe631a0c3683cd0654637ec5724cd18890e1a272be834622d2660b3"
+    },
+    {
+      "id": "google-updated-com.android.vending-priv-app_Phonesky_split_config.arm64_v8a.apk",
+      "partition": "product",
+      "image_path": "priv-app/Phonesky/split_config.arm64_v8a.apk",
+      "sha256": "8796616f2f538df53401e76f9eb718f0abda168433d9c80eac7df69a093be30a"
+    },
+    {
+      "id": "google-updated-com.android.vending-priv-app_Phonesky_split_config.ru.apk",
+      "partition": "product",
+      "image_path": "priv-app/Phonesky/split_config.ru.apk",
+      "sha256": "1838ea1a4a644555f0848bd6200efc77a02e1010c9036a36b3a0ef7addf04d9a"
+    },
+    {
+      "id": "google-updated-com.android.vending-priv-app_Phonesky_split_phonesky_data_loader.apk",
+      "partition": "product",
+      "image_path": "priv-app/Phonesky/split_phonesky_data_loader.apk",
+      "sha256": "4c21ff7271fdbae2849f67342a1b561a514107bbed2c48c8e31e5225c2ac7f02"
+    },
+    {
+      "id": "google-updated-com.android.vending-priv-app_Phonesky_split_phonesky_data_loader.config.arm64_v8a.apk",
+      "partition": "product",
+      "image_path": "priv-app/Phonesky/split_phonesky_data_loader.config.arm64_v8a.apk",
+      "sha256": "ba08b19a2c73bce7d4605bf829a90c4cd3feae3ed1ad6241baa07d589d407706"
+    },
+    {
+      "id": "google-updated-com.android.vending-priv-app_Phonesky_split_phonesky_webrtc_native_lib.apk",
+      "partition": "product",
+      "image_path": "priv-app/Phonesky/split_phonesky_webrtc_native_lib.apk",
+      "sha256": "31981da7ccf442fe2877af328775fd4b089cec31762c107f9894b109297e7678"
+    },
+    {
+      "id": "google-updated-com.android.vending-priv-app_Phonesky_split_phonesky_webrtc_native_lib.config.arm64_v8a.apk",
+      "partition": "product",
+      "image_path": "priv-app/Phonesky/split_phonesky_webrtc_native_lib.config.arm64_v8a.apk",
+      "sha256": "fb7973c8a7b7077752c8052e8f6d9b21b6eea015c637c5dda24e2ee836ccce4d"
+    },
+    {
+      "id": "google-updated-com.google.android.deskclock-priv-app_DeskClockGoogle_DeskClockGoogle.apk",
+      "partition": "product",
+      "image_path": "priv-app/DeskClockGoogle/DeskClockGoogle.apk",
+      "sha256": "d24cf856bf2e1128c22c42acff634be3c619bdc7b875f6d970376532f7545e2d"
+    },
+    {
+      "id": "google-updated-com.google.android.deskclock-priv-app_DeskClockGoogle_split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "priv-app/DeskClockGoogle/split_config.xxhdpi.apk",
+      "sha256": "c4d945dca2d877c64d0b577866a17bf8766cdf956847a057b8bc587674a1aeea"
+    },
+    {
+      "id": "google-updated-com.google.android.dialer-priv-app_GoogleDialer_GoogleDialer.apk",
+      "partition": "product",
+      "image_path": "priv-app/GoogleDialer/GoogleDialer.apk",
+      "sha256": "c1f20357998aed706dda6c2c6239d215c98363521c6b0eab159ff8105321e6b7"
+    },
+    {
+      "id": "google-updated-com.google.android.contacts-app_GoogleContacts_GoogleContacts.apk",
+      "partition": "product",
+      "image_path": "app/GoogleContacts/GoogleContacts.apk",
+      "sha256": "546fe247d4c78f40076fd9e7b92d0cad01297108209c5c21b44fe5ad88eeb77f"
+    },
+    {
+      "id": "google-updated-com.google.android.contacts-app_GoogleContacts_split_config.arm64_v8a.apk",
+      "partition": "product",
+      "image_path": "app/GoogleContacts/split_config.arm64_v8a.apk",
+      "sha256": "4fbdcc3c6d1f541dee66d89cb921d6feb7576570c6b6c66ac30741766de64901"
+    },
+    {
+      "id": "google-updated-com.google.android.contacts-app_GoogleContacts_split_config.ru.apk",
+      "partition": "product",
+      "image_path": "app/GoogleContacts/split_config.ru.apk",
+      "sha256": "33cc0c0f49e664015c590ee90203776f357853d638d20f789a6efca2925b5808"
+    },
+    {
+      "id": "google-updated-com.google.android.contacts-app_GoogleContacts_split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "app/GoogleContacts/split_config.xxhdpi.apk",
+      "sha256": "63c769672fb6caab7969ef7e6f487968fe70f8c92a090db66135c279ef8a6ad0"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_GmsCore.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/GmsCore.apk",
+      "sha256": "0a0af2a2c44c459a0dded52cb7e176704d640ae738980d12360697cf96c8da4e"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_AdsDynamite_installtime.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_AdsDynamite_installtime.apk",
+      "sha256": "a3765bc159ed77502b67d082978bb5ebf98736f57e50f433978da44870547968"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_CronetDynamite_installtime.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_CronetDynamite_installtime.apk",
+      "sha256": "9e10a9d552e175625ec0f37b9a0a1d84d91aa78e0088e8716f924d91e1b50bfd"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_DynamiteLoader_installtime.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_DynamiteLoader_installtime.apk",
+      "sha256": "cc9e83cc170e4a94067228c2b6ec19409feef2dda9a387c461880baefeb67e98"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_DynamiteModulesA_installtime.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_DynamiteModulesA_installtime.apk",
+      "sha256": "dd7394fb29fe8252ea69befaaa4cf2ad922e3d9d1fedc378efece02d0daa0706"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_DynamiteModulesC_installtime.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_DynamiteModulesC_installtime.apk",
+      "sha256": "0f2bbb7ee01ad123de5f243a77ea0dc3cb0640784c8d820b5771e2d729458482"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_GoogleCertificates_installtime.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_GoogleCertificates_installtime.apk",
+      "sha256": "ec3064ba79cfdbd4b0d36d421abab72817428664dc33cc7b38c95bb1b07a287f"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_MapsDynamite_installtime.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_MapsDynamite_installtime.apk",
+      "sha256": "51aa962f096cdd6573db045100a5a377c0f2351f2f3710b1dcebd8ef8246aaf3"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_MeasurementDynamite_installtime.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_MeasurementDynamite_installtime.apk",
+      "sha256": "61c96fa6d7a7c91096395474b4946c478f59424aba39999112e238341276f6ed"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_all_locale_splits.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_all_locale_splits.apk",
+      "sha256": "48846272a6d33e8b076bef37ad3cb800fcf9cc50bcee35c0de062e0e3f708704"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_config.ru.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_config.ru.apk",
+      "sha256": "661b01202437b7ad13b761d580f650baae46d9cfc793555543745387164fa371"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_config.xxhdpi.apk",
+      "sha256": "2b8c459b272a7e9e36726229e03bff292beb21b9c95eac438cade9779410c3b9"
+    },
+    {
+      "id": "google-updated-com.google.android.gms-priv-app_GmsCore_split_maps_core_dynamite_ondemand.apk",
+      "partition": "product",
+      "image_path": "priv-app/GmsCore/split_maps_core_dynamite_ondemand.apk",
+      "sha256": "274fe3b954b39765f357c88891ee7e9970ad36af5899dbd94b7363c7bb9e43ac"
+    },
+    {
+      "id": "google-updated-com.google.android.tts-app_SpeechServicesByGoogle_SpeechServicesByGoogle.apk",
+      "partition": "product",
+      "image_path": "app/SpeechServicesByGoogle/SpeechServicesByGoogle.apk",
+      "sha256": "93294e46cd4975e21e0f11c80882b97a21e529f38c36a841480f81b85520517f"
+    },
+    {
+      "id": "google-updated-com.google.android.tts-app_SpeechServicesByGoogle_split_config.arm64_v8a.apk",
+      "partition": "product",
+      "image_path": "app/SpeechServicesByGoogle/split_config.arm64_v8a.apk",
+      "sha256": "adb317356189ff793b1ac66590cab9d514f14ebedecb4007bbda3e5d43ea48fe"
+    },
+    {
+      "id": "google-updated-com.google.android.tts-app_SpeechServicesByGoogle_split_config.ru.apk",
+      "partition": "product",
+      "image_path": "app/SpeechServicesByGoogle/split_config.ru.apk",
+      "sha256": "edeecdec3986ad5a38d1c8d4eb331e5867307637454afa21bb629270158b5a30"
+    },
+    {
+      "id": "google-updated-com.google.android.tts-app_SpeechServicesByGoogle_split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "app/SpeechServicesByGoogle/split_config.xxhdpi.apk",
+      "sha256": "2e71bf90d485a9e2c868c73fd88d40d18a33571e73c551ba0ffcd780fd0031be"
+    },
+    {
+      "id": "google-updated-com.google.android.tts-app_SpeechServicesByGoogle_lib_arm64_libandroidx.graphics.path.so",
+      "partition": "product",
+      "image_path": "app/SpeechServicesByGoogle/lib/arm64/libandroidx.graphics.path.so",
+      "sha256": "da25a18de15609760e53c15179edc709648ea67313471c3550f8eb66085301e5"
+    },
+    {
+      "id": "google-updated-com.google.android.tts-app_SpeechServicesByGoogle_lib_arm64_libdatastore_shared_counter.so",
+      "partition": "product",
+      "image_path": "app/SpeechServicesByGoogle/lib/arm64/libdatastore_shared_counter.so",
+      "sha256": "ee2223d9320a5a095ae3df951bc8bdb7c5e0d38e135750bca2135f7dc4819d5f"
+    },
+    {
+      "id": "google-updated-com.google.android.tts-app_SpeechServicesByGoogle_lib_arm64_libgoogle_speech_sbg_tts_jni.so",
+      "partition": "product",
+      "image_path": "app/SpeechServicesByGoogle/lib/arm64/libgoogle_speech_sbg_tts_jni.so",
+      "sha256": "8f36463758f50f352283686dbdf0f185811f7d373b05e30e766dae3e44586409"
+    },
+    {
+      "id": "google-updated-com.google.android.tts-app_SpeechServicesByGoogle_lib_arm64_libmappedcountercacheversionjni.so",
+      "partition": "product",
+      "image_path": "app/SpeechServicesByGoogle/lib/arm64/libmappedcountercacheversionjni.so",
+      "sha256": "3e43ba93ee743369af0646dbd05746003005c48de15a190d7914be3be8d2f0df"
+    },
+    {
+      "id": "google-updated-com.google.android.tts-app_SpeechServicesByGoogle_lib_arm64_libogg_opus_encoder.so",
+      "partition": "product",
+      "image_path": "app/SpeechServicesByGoogle/lib/arm64/libogg_opus_encoder.so",
+      "sha256": "c401304eeb19694d67b72de520ab5662691d8eb55bdf065cb105c805aa86d94e"
+    },
+    {
+      "id": "google-updated-com.google.android.tts-app_SpeechServicesByGoogle_lib_arm64_libopusV2JNI.so",
+      "partition": "product",
+      "image_path": "app/SpeechServicesByGoogle/lib/arm64/libopusV2JNI.so",
+      "sha256": "0a3e4e1ed7653bc2f0fdf60b4db8fc8e34aa37dbb2b64de65f358166eddfffe1"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_Photos.apk",
+      "partition": "product",
+      "image_path": "app/Photos/Photos.apk",
+      "sha256": "15e91736273418234d087e5d6e375f2e8e2a9ea6c5108f1cd2f7c9846fbb4daf"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_split_config.arm64_v8a.apk",
+      "partition": "product",
+      "image_path": "app/Photos/split_config.arm64_v8a.apk",
+      "sha256": "f942b4d60880337b6bf162d018b58c08d10d9aa1c992b63bd171537b04cd2704"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_split_config.ru.apk",
+      "partition": "product",
+      "image_path": "app/Photos/split_config.ru.apk",
+      "sha256": "75f21cf670a33721bec6f9371ee5ce1c5eaa73be6068756edce47a697cd4c050"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "app/Photos/split_config.xxhdpi.apk",
+      "sha256": "949ca74d77efada80b074b0b3f20a6ae886ef8fb7470a6aa912de9b667082238"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libandroidx.graphics.path.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libandroidx.graphics.path.so",
+      "sha256": "da25a18de15609760e53c15179edc709648ea67313471c3550f8eb66085301e5"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libdatastore_shared_counter.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libdatastore_shared_counter.so",
+      "sha256": "ee2223d9320a5a095ae3df951bc8bdb7c5e0d38e135750bca2135f7dc4819d5f"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libfilterframework_jni.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libfilterframework_jni.so",
+      "sha256": "8829fb805c59aaad8df852a9d05451a999bfd55af29e697ec69dee02b8b26582"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libgraphics-core.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libgraphics-core.so",
+      "sha256": "9d86905530a90e944200bd4356e58e1066cff88d39c4b31de47735adfe6d2bb0"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libimage_processing_util_jni.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libimage_processing_util_jni.so",
+      "sha256": "842aff5a9daa2796b2d237f2d8a475bc0471d38480396cfb90fc0fd17997376a"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libmedia3EffectJNI.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libmedia3EffectJNI.so",
+      "sha256": "d122406d81cb908a3938a74e96d94308aa0cfa9595e0ac4a8bce8fa46a806158"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libnative.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libnative.so",
+      "sha256": "4081a473b7c472c572d5dd67b21b149dc680e50222ab31a1d332af11418a4af9"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libnative_crash_handler_jni.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libnative_crash_handler_jni.so",
+      "sha256": "2fa176f0cbe11a72599fd94a16de8a57116e51b30485026ce3ff006e1476aa8b"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_liboliveoil.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/liboliveoil.so",
+      "sha256": "8e05e38763f7761769d9e8335c923d0661a08e938232faca42b81d99f91cf4a1"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libsqlite3x.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libsqlite3x.so",
+      "sha256": "8c0f2f46562298cc06257bc7d727192a167cb0cbad658427b1f84004058df43c"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libsurface_util_jni.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libsurface_util_jni.so",
+      "sha256": "2bdad475bed383be73bafe6d9d996c1f4ab8ba2d1baaa2dd0531139d3712d582"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.photos-app_Photos_lib_arm64_libwebp_android.so",
+      "partition": "product",
+      "image_path": "app/Photos/lib/arm64/libwebp_android.so",
+      "sha256": "07ffebba76924ab2af2233f04256e227cecd8eb9416ba8c95af02d5dd1580b84"
+    },
+    {
+      "id": "google-updated-com.google.android.projection.gearhead-priv-app_AndroidAutoStub_AndroidAutoStub.apk",
+      "partition": "product",
+      "image_path": "priv-app/AndroidAutoStub/AndroidAutoStub.apk",
+      "sha256": "a024a3c478dd01a1aecdd5cfe9b038d86a60e8b9b930e52762a781cf6b300b05"
+    },
+    {
+      "id": "google-updated-com.google.android.projection.gearhead-priv-app_AndroidAutoStub_split_config.arm64_v8a.apk",
+      "partition": "product",
+      "image_path": "priv-app/AndroidAutoStub/split_config.arm64_v8a.apk",
+      "sha256": "38a322e8d401bb12be3cc82592bd4c592c4d0dc79923c7cd43aa2d2a27090968"
+    },
+    {
+      "id": "google-updated-com.google.android.projection.gearhead-priv-app_AndroidAutoStub_split_config.ru.apk",
+      "partition": "product",
+      "image_path": "priv-app/AndroidAutoStub/split_config.ru.apk",
+      "sha256": "21d422554497008aa060c030b7522a2a57ed044d127b0994f7273304517c7834"
+    },
+    {
+      "id": "google-updated-com.google.android.projection.gearhead-priv-app_AndroidAutoStub_split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "priv-app/AndroidAutoStub/split_config.xxhdpi.apk",
+      "sha256": "ce089c4cb13faafd11925fc28f5685615456ea920bd6e7f7a1e8c166965af774"
+    },
+    {
+      "id": "google-updated-com.google.android.inputmethod.latin-app_LatinImeGoogle_LatinImeGoogle.apk",
+      "partition": "product",
+      "image_path": "app/LatinImeGoogle/LatinImeGoogle.apk",
+      "sha256": "347c334f93a70f252e01f9560e72e73bc38c580f2847f8b9f288a58cf962b5d9"
+    },
+    {
+      "id": "google-updated-com.google.android.inputmethod.latin-app_LatinImeGoogle_split_brella_feature_split.apk",
+      "partition": "product",
+      "image_path": "app/LatinImeGoogle/split_brella_feature_split.apk",
+      "sha256": "9ec212a3f2e23e895521f4d1269ed4d3ccfe8d473abe24c466bb72f88ff0cbe6"
+    },
+    {
+      "id": "google-updated-com.google.android.inputmethod.latin-app_LatinImeGoogle_split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "app/LatinImeGoogle/split_config.xxhdpi.apk",
+      "sha256": "5f235dfff5822f60a2e2b94bfa764839bda683987fb866afb755b39c33c14c0d"
+    },
+    {
+      "id": "google-updated-com.google.android.inputmethod.latin-app_LatinImeGoogle_split_tenoranimation_feature_split.apk",
+      "partition": "product",
+      "image_path": "app/LatinImeGoogle/split_tenoranimation_feature_split.apk",
+      "sha256": "ddbb6ee34f19dfb2e5699e31b31582103a345e3310a03d3767e804e385652bad"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.restore-priv-app_GoogleRestore_GoogleRestore.apk",
+      "partition": "product",
+      "image_path": "priv-app/GoogleRestore/GoogleRestore.apk",
+      "sha256": "369a2ca3811a57121a91359381ba091338654bd6f22b2ae44d9bdaf7e46d59b0"
+    },
+    {
+      "id": "google-updated-com.google.android.apps.restore-priv-app_GoogleRestore_split_config.xxhdpi.apk",
+      "partition": "product",
+      "image_path": "priv-app/GoogleRestore/split_config.xxhdpi.apk",
+      "sha256": "ceec0a144efb4c5eac059f5a1739321bea63e8a2c382024293ab6a29968527e0"
+    },
+    {
+      "id": "google-updated-permission-policy-etc_permissions_privapp-permissions-lunatik-google-updates.xml",
+      "partition": "product",
+      "image_path": "etc/permissions/privapp-permissions-lunatik-google-updates.xml",
+      "sha256": "7601ce36b7cc37c1a1c0db1806c52005f7184ddc1cfcbbe589bc374c6e74c48e"
+    },
+    {
+      "id": "eu-lock-haptic-lunatik-lock-haptic-sh",
+      "partition": "system_ext",
+      "image_path": "bin/lunatik-lock-haptic.sh",
+      "sha256": "6f9922bae4cc4042d2c0cd4a1b6066318901d49ce824092395118733a91187cd"
+    },
+    {
+      "id": "eu-lock-haptic-lunatik-lock-haptic-rc",
+      "partition": "system_ext",
+      "image_path": "etc/init/lunatik-lock-haptic.rc",
+      "sha256": "7e339e9be72fabb9a2ee1d509b97047079844f123829dcb4592f4d492972af6f"
+    },
+    {
+      "id": "eu-lock-haptic-native-daemon",
+      "partition": "system_ext",
+      "image_path": "bin/lunatik-lock-hapticd",
+      "sha256": "85d7f6c5e337478e7df48e5605af8e7590ca49604571eb729f30fe2d744c17ce"
+    },
+    {
+      "id": "speaker-cn-region-loader",
+      "partition": "vendor",
+      "image_path": "bin/vendor_modprobe.sh",
+      "sha256": "13f5aeb2b1a277cc733ab5a7b3292236832e43e156c7a554d9d326edcbe01876"
+    },
+    {
+      "id": "speaker-cn-only-gpio-cleanup",
+      "partition": "vendor_dlkm",
+      "image_path": "lib/modules/aw882xx_dlkm.ko",
+      "sha256": "12620c4b17c26c17c6d7a09a18a87461e17c40a45bb709ca5812343fbd036e6f"
+    },
+    {
+      "id": "aod-unlock-hide-notifications",
+      "partition": "system_ext",
+      "image_path": "priv-app/SystemUI/SystemUI.apk",
+      "sha256": "e3ebd9948190b35a174212202117d56f14f6d006847c912edf8650fdf812be61"
+    },
+    {
+      "id": "system-blur-controls-settings",
+      "partition": "system_ext",
+      "image_path": "priv-app/Settings/Settings.apk",
+      "sha256": "c901882b47e0288c5ab5a5ce20eadc1509dd178d8b7f727300cf2959c4d19d1c"
+    },
+    {
+      "id": "system-blur-controls-launcher",
+      "partition": "system_ext",
+      "image_path": "priv-app/Launcher3QuickStep/Launcher3QuickStep.apk",
+      "sha256": "e6e2591c4cc555d92720cc8367c13c768457fb7078dcf1257960df691f795293"
+    },
+    {
+      "id": "system-blur-controls-systemui",
+      "partition": "system_ext",
+      "image_path": "priv-app/SystemUI/SystemUI.apk",
+      "sha256": "e3ebd9948190b35a174212202117d56f14f6d006847c912edf8650fdf812be61"
+    },
+    {
+      "id": "launcher-drawer-label-condense-toggle",
+      "partition": "system_ext",
+      "image_path": "priv-app/Launcher3QuickStep/Launcher3QuickStep.apk",
+      "sha256": "e6e2591c4cc555d92720cc8367c13c768457fb7078dcf1257960df691f795293"
+    },
+    {
+      "id": "launcher-pinned-apps-russian",
+      "partition": "system_ext",
+      "image_path": "priv-app/Launcher3QuickStep/Launcher3QuickStep.apk",
+      "sha256": "e6e2591c4cc555d92720cc8367c13c768457fb7078dcf1257960df691f795293"
+    },
+    {
+      "id": "settings-search-match-card-surface",
+      "partition": "system_ext",
+      "image_path": "priv-app/Settings/Settings.apk",
+      "sha256": "c901882b47e0288c5ab5a5ce20eadc1509dd178d8b7f727300cf2959c4d19d1c"
+    },
+    {
+      "id": "freeform-edge-panels-youtube",
+      "partition": "system_ext",
+      "image_path": "priv-app/SystemUI/SystemUI.apk",
+      "sha256": "e3ebd9948190b35a174212202117d56f14f6d006847c912edf8650fdf812be61"
+    },
+    {
+      "id": "pocket-oem-sensor",
+      "partition": "system",
+      "image_path": "system/framework/services.jar",
+      "sha256": "d56c9d01225cd62387e3e51a9f2259f2895ec02ed6df8a6b42ff8556f93bc670"
+    },
+    {
+      "id": "aod-pocket-fod-touch-gate",
+      "partition": "system_ext",
+      "image_path": "priv-app/SystemUI/SystemUI.apk",
+      "sha256": "e3ebd9948190b35a174212202117d56f14f6d006847c912edf8650fdf812be61"
+    },
+    {
+      "id": "aod-pocket-driver-wake-gate",
+      "partition": "system",
+      "image_path": "system/framework/services.jar",
+      "sha256": "d56c9d01225cd62387e3e51a9f2259f2895ec02ed6df8a6b42ff8556f93bc670"
+    },
+    {
+      "id": "notification-native-blur-material",
+      "partition": "system_ext",
+      "image_path": "priv-app/SystemUI/SystemUI.apk",
+      "sha256": "e3ebd9948190b35a174212202117d56f14f6d006847c912edf8650fdf812be61"
+    },
+    {
+      "id": "notification-blur-toggle",
+      "partition": "system_ext",
+      "image_path": "priv-app/Settings/Settings.apk",
+      "sha256": "c901882b47e0288c5ab5a5ce20eadc1509dd178d8b7f727300cf2959c4d19d1c"
+    },
+    {
+      "id": "three-position-blur-mode",
+      "partition": "system_ext",
+      "image_path": "priv-app/Settings/Settings.apk",
+      "sha256": "c901882b47e0288c5ab5a5ce20eadc1509dd178d8b7f727300cf2959c4d19d1c"
+    },
+    {
+      "id": "touch-sound-selection-settings",
+      "partition": "system_ext",
+      "image_path": "priv-app/Settings/Settings.apk",
+      "sha256": "c901882b47e0288c5ab5a5ce20eadc1509dd178d8b7f727300cf2959c4d19d1c"
+    },
+    {
+      "id": "touch-sound-selection-audio",
+      "partition": "system",
+      "image_path": "system/framework/services.jar",
+      "sha256": "d56c9d01225cd62387e3e51a9f2259f2895ec02ed6df8a6b42ff8556f93bc670"
+    },
+    {
+      "id": "touch-sound-xiaomi",
+      "partition": "product",
+      "image_path": "media/audio/ui/Effect_Tick_Xiaomi.ogg",
+      "sha256": "76dfe049331e30b3bd8a96ae0d3a74af46aa62a8f82a79c14742d6a22317b939"
+    },
+    {
+      "id": "touch-sound-aosp",
+      "partition": "product",
+      "image_path": "media/audio/ui/Effect_Tick_AOSP.ogg",
+      "sha256": "337381e93a830b17eb9435403bdaec2c3102f261fb29f6612a819fdfadba07f1"
+    },
+    {
+      "id": "blur-surface-lifecycle-systemui",
+      "partition": "system_ext",
+      "image_path": "priv-app/SystemUI/SystemUI.apk",
+      "sha256": "e3ebd9948190b35a174212202117d56f14f6d006847c912edf8650fdf812be61"
+    },
+    {
+      "id": "blur-surface-lifecycle-launcher",
+      "partition": "system_ext",
+      "image_path": "priv-app/Launcher3QuickStep/Launcher3QuickStep.apk",
+      "sha256": "e6e2591c4cc555d92720cc8367c13c768457fb7078dcf1257960df691f795293"
+    }
+  ]
+}

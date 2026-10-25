@@ -1,0 +1,42 @@
+[
+  {
+    "component": "Settings",
+    "base_sha256": "fe71b10f26eeec82e40f447a87bf07b6bfcffc15ba4f832230cb4f4243aae8c9",
+    "r8_sha256": "c901882b47e0288c5ab5a5ce20eadc1509dd178d8b7f727300cf2959c4d19d1c",
+    "changed_classes": 12,
+    "new_classes": 13,
+    "excluded_new_classes": []
+  },
+  {
+    "component": "Launcher",
+    "base_sha256": "765da7a8a552003c2e45a5607ef92fd3ab6656960f6f3552b5c40887ea2f91c2",
+    "r8_sha256": "e6e2591c4cc555d92720cc8367c13c768457fb7078dcf1257960df691f795293",
+    "changed_classes": 52,
+    "new_classes": 17,
+    "excluded_new_classes": []
+  },
+  {
+    "component": "SystemUI",
+    "base_sha256": "623a6631c9e7b23c0b239521bbcffa5317a2e47084a91ae8c4f79efa751b832b",
+    "r8_sha256": "e3ebd9948190b35a174212202117d56f14f6d006847c912edf8650fdf812be61",
+    "changed_classes": 97,
+    "new_classes": 71,
+    "excluded_new_classes": []
+  },
+  {
+    "component": "services",
+    "base_sha256": "5862e23dfabed7bffe60ebd29795e80c5c3d0f2f1b202565a51f4f4cc727b959",
+    "r8_sha256": "d56c9d01225cd62387e3e51a9f2259f2895ec02ed6df8a6b42ff8556f93bc670",
+    "changed_classes": 68,
+    "new_classes": 12,
+    "excluded_new_classes": []
+  },
+  {
+    "component": "GameSpace",
+    "base_sha256": "736e3624f76c7006f3d43402821097967873215380309db00ea21103a099fa8d",
+    "r8_sha256": "56d01ba656f843f489706bd7287c03aa82f878e1ed0c078e13de7b5e4ea89df4",
+    "changed_classes": 113,
+    "new_classes": 12,
+    "excluded_new_classes": []
+  }
+]

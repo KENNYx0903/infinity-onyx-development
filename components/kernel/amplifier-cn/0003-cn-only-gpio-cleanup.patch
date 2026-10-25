@@ -1,0 +1,64 @@
+--- a/aw882xx.c
++++ b/aw882xx.c
+@@ -50,6 +50,11 @@
+ extern bool check_smartpa_type(const char *name);
+ extern int get_smartpa_type(void);
+ extern void set_smartpa_codec(struct device *dev, const char *dai_name);
++
++/* Set only by the vendor module loader for hardware region CN. */
++static bool g_cn_gpio_fix;
++module_param_named(cn_gpio_fix, g_cn_gpio_fix, bool, 0444);
++MODULE_PARM_DESC(cn_gpio_fix, "Enable shared amplifier GPIO cleanup for CN hardware only");
+ 
+ static unsigned int g_aw882xx_dev_cnt;
+ static unsigned int g_print_dbg;
+@@ -2922,6 +2927,7 @@
+ #endif
+ {
+ 	int ret;
++	void *gpio_group = NULL;
+ 	struct aw882xx *aw882xx = NULL;
+ 	struct device_node *np = i2c->dev.of_node;
+ #if defined(PROBE_FAILED_REGISTER_DUMMY_DAI)
+@@ -2956,8 +2962,19 @@
+ 		return ret;
+ 	}
+ 
+-	/*get gpio resource*/
+-	aw882xx_gpio_request(aw882xx);
++	if (g_cn_gpio_fix) {
++		gpio_group = devres_open_group(aw882xx->dev, NULL, GFP_KERNEL);
++		if (!gpio_group)
++			return -ENOMEM;
++		ret = aw882xx_gpio_request(aw882xx);
++		if (ret) {
++			devres_release_group(aw882xx->dev, gpio_group);
++			return ret == -EBUSY ? -EPROBE_DEFER : ret;
++		}
++	} else {
++		/* Preserve the original non-CN probe path. */
++		aw882xx_gpio_request(aw882xx);
++	}
+ 
+ 	/* hardware reset */
+ 	aw882xx_hw_reset(aw882xx);
+@@ -2966,6 +2983,9 @@
+ 	ret = aw882xx_read_chipid(aw882xx);
+ 	if (ret < 0) {
+ 		aw_dev_err(&i2c->dev, "aw882xx_read_chipid failed ret=%d", ret);
++		/* A dummy codec must not retain GPIOs needed by the real PA. */
++		if (g_cn_gpio_fix)
++			devres_release_group(aw882xx->dev, gpio_group);
+ #if defined(PROBE_FAILED_REGISTER_DUMMY_DAI)
+ 		aw_dev_info(&i2c->dev, "register dummy codec\n");
+ 		memset(&aw_dummy_codec, 0,
+@@ -2996,6 +3016,9 @@
+ #endif
+ 	}
+ 
++	/* Keep normal devm ownership after a real Awinic chip is detected. */
++	if (g_cn_gpio_fix)
++		devres_remove_group(aw882xx->dev, gpio_group);
+ 	set_smartpa_type("aw882xx", sizeof("aw882xx"));
+ 
+ 	/*aw pa init*/

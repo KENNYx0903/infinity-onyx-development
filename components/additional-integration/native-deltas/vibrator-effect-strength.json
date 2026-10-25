@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "name": "vibrator-effect-strength",
+  "bytes": 51576,
+  "base_sha256": "67ac241548a86f5bf22eacbddd90449ff12f6037f56a8e6f7b3f94f8a1bcc424",
+  "result_sha256": "f7d3d3969aa413e4e1b8ea04c21ac25b4ca1e9cec3f1fe89ddf3c6ba9e24aeb5",
+  "hunks": [
+    {
+      "offset": 208,
+      "before": "70",
+      "after": "fc"
+    },
+    {
+      "offset": 216,
+      "before": "70",
+      "after": "fc"
+    },
+    {
+      "offset": 17584,
+      "before": "ff8301d1",
+      "after": "b0020014"
+    },
+    {
+      "offset": 20336,
+      "before": "0000",
+      "after": "3f4c"
+    },
+    {
+      "offset": 20339,
+      "before": "000000",
+      "after": "71c001"
+    },
+    {
+      "offset": 20343,
+      "before": "000000",
+      "after": "543f50"
+    },
+    {
+      "offset": 20347,
+      "before": "000000",
+      "after": "71e001"
+    },
+    {
+      "offset": 20351,
+      "before": "000000",
+      "after": "543f48"
+    },
+    {
+      "offset": 20355,
+      "before": "00",
+      "after": "71"
+    },
+    {
+      "offset": 20357,
+      "before": "00",
+      "after": "02"
+    },
+    {
+      "offset": 20359,
+      "before": "000000",
+      "after": "543f44"
+    },
+    {
+      "offset": 20363,
+      "before": "000000",
+      "after": "712002"
+    },
+    {
+      "offset": 20367,
+      "before": "000000",
+      "after": "543f40"
+    },
+    {
+      "offset": 20371,
+      "before": "000000",
+      "after": "714002"
+    },
+    {
+      "offset": 20375,
+      "before": "000000",
+      "after": "543f3c"
+    },
+    {
+      "offset": 20379,
+      "before": "000000",
+      "after": "716002"
+    },
+    {
+      "offset": 20383,
+      "before": "000000",
+      "after": "543f08"
+    },
+    {
+      "offset": 20387,
+      "before": "000000000000",
+      "after": "71e103811a13"
+    },
+    {
+      "offset": 20395,
+      "before": "0000",
+      "after": "1441"
+    },
+    {
+      "offset": 20398,
+      "before": "000000",
+      "after": "805202"
+    },
+    {
+      "offset": 20402,
+      "before": "000000",
+      "after": "805210"
+    },
+    {
+      "offset": 20407,
+      "before": "0000",
+      "after": "1441"
+    },
+    {
+      "offset": 20410,
+      "before": "000000",
+      "after": "805222"
+    },
+    {
+      "offset": 20414,
+      "before": "000000",
+      "after": "80520d"
+    },
+    {
+      "offset": 20419,
+      "before": "0000",
+      "after": "1441"
+    },
+    {
+      "offset": 20422,
+      "before": "000000",
+      "after": "805242"
+    },
+    {
+      "offset": 20426,
+      "before": "000000",
+      "after": "80520a"
+    },
+    {
+      "offset": 20431,
+      "before": "0000",
+      "after": "1401"
+    },
+    {
+      "offset": 20434,
+      "before": "000000",
+      "after": "805202"
+    },
+    {
+      "offset": 20438,
+      "before": "000000",
+      "after": "805207"
+    },
+    {
+      "offset": 20443,
+      "before": "0000",
+      "after": "1401"
+    },
+    {
+      "offset": 20446,
+      "before": "000000",
+      "after": "805222"
+    },
+    {
+      "offset": 20450,
+      "before": "000000",
+      "after": "805204"
+    },
+    {
+      "offset": 20455,
+      "before": "0000",
+      "after": "1401"
+    },
+    {
+      "offset": 20458,
+      "before": "000000",
+      "after": "805242"
+    },
+    {
+      "offset": 20462,
+      "before": "000000",
+      "after": "805201"
+    },
+    {
+      "offset": 20467,
+      "before": "000000000000000000",
+      "after": "14ff8301d12ffdff17"
+    }
+  ]
+}

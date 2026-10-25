@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-25",
+  "scope": "Offline transformation checks only; not an Android source build or runtime proof",
+  "results": [
+    {
+      "component": "SystemUI",
+      "modified_classes_verified": 97,
+      "new_classes_verified": 71,
+      "dry_run": true,
+      "patch_applied": true,
+      "matches_r8_smali": true
+    },
+    {
+      "component": "Launcher",
+      "modified_classes_verified": 52,
+      "new_classes_verified": 17,
+      "dry_run": true,
+      "patch_applied": true,
+      "matches_r8_smali": true
+    },
+    {
+      "component": "Settings",
+      "modified_classes_verified": 12,
+      "new_classes_verified": 13,
+      "dry_run": true,
+      "patch_applied": true,
+      "matches_r8_smali": true
+    },
+    {
+      "component": "services",
+      "modified_classes_verified": 68,
+      "new_classes_verified": 12,
+      "dry_run": true,
+      "patch_applied": true,
+      "matches_r8_smali": true
+    },
+    {
+      "component": "GameSpace",
+      "modified_classes_verified": 113,
+      "new_classes_verified": 12,
+      "dry_run": true,
+      "patch_applied": true,
+      "matches_r8_smali": true
+    },
+    {
+      "component": "cameraserver-raw",
+      "native_delta_output_verified": true,
+      "result_sha256": "2c9ce14d696ad7daab989e1134ec006a279af394a50a0f9f57696c22d6267e49"
+    },
+    {
+      "component": "vibrator-effect-strength",
+      "native_delta_output_verified": true,
+      "result_sha256": "f7d3d3969aa413e4e1b8ea04c21ac25b4ca1e9cec3f1fe89ddf3c6ba9e24aeb5"
+    },
+    {
+      "component": "pal-voip-gain",
+      "native_delta_output_verified": true,
+      "result_sha256": "4b5c8413833373dbc364333ed762670c2044e407b2421b2d7fa675c696de16ed"
+    },
+    {
+      "component": "health-time-estimate",
+      "native_delta_output_verified": true,
+      "result_sha256": "5fd28925671ff6ae85222583beaeeef3a4574e1fc37bd664b9562d338d7e3d9c"
+    },
+    {
+      "tampered_native_input_rejected": true
+    }
+  ]
+}

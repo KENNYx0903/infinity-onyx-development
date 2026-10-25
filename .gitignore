@@ -1,0 +1,23 @@
+# Never commit proprietary ROM inputs, credentials or generated artifacts.
+.private/
+local/
+out/
+build/
+__pycache__/
+*.pyc
+*.apk
+*.jar
+*.dex
+*.ko
+*.img
+*.bin
+*.ogg
+*.ttf
+*.mp4
+*.zip
+*.pk8
+*.pem
+*.key
+*.jks
+*.keystore
+.env

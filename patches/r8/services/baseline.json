@@ -1,0 +1,8 @@
+{
+  "component": "services",
+  "base_sha256": "5862e23dfabed7bffe60ebd29795e80c5c3d0f2f1b202565a51f4f4cc727b959",
+  "r8_sha256": "d56c9d01225cd62387e3e51a9f2259f2895ec02ed6df8a6b42ff8556f93bc670",
+  "changed_classes": 68,
+  "new_classes": 12,
+  "excluded_new_classes": []
+}

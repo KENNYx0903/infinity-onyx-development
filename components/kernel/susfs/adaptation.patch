@@ -1,0 +1,283 @@
+--- a/imports_guard.c
++++ b/imports_guard.c
+@@ -138,7 +138,9 @@
+     IMP(__put_cred),
+     IMP(strnlen_user),
+     IMP(___ratelimit),
++#ifdef CONFIG_HARDENED_USERCOPY
+     IMP(__check_object_size),
++#endif
+     IMP(queue_delayed_work_on),
+     IMP(cancel_delayed_work_sync),
+     IMP(delayed_work_timer_fn),
+--- /dev/null
++++ b/lunatik_layers.h
+@@ -0,0 +1,30 @@
++/* Safe staged bring-up additions by lunatik_kenny. GPL-2.0-only. */
++#ifndef LUNATIK_SUSFS_LAYERS_H
++#define LUNATIK_SUSFS_LAYERS_H
++#ifndef __KERNEL__
++#include <stdbool.h>
++#endif
++enum lunatik_layer {
++ LAYER_UMOUNT_GATE, LAYER_ALLOW_GATE, LAYER_LSM, LAYER_PATH,
++ LAYER_OPATH, LAYER_DIRENT, LAYER_UNAME, LAYER_KSTAT,
++ LAYER_MAP, LAYER_MOUNT, LAYER_CMDLINE, LAYER_REDIRECT,
++ LAYER_LOG, LAYER_AVC, LAYER_SUPERCALL, LAYER_SYMBOLS, LAYER_COUNT
++};
++#define LUNATIK_BIT(n) (1u << (n))
++#define LUNATIK_BASE (LUNATIK_BIT(LAYER_UMOUNT_GATE) | LUNATIK_BIT(LAYER_ALLOW_GATE) | LUNATIK_BIT(LAYER_SUPERCALL))
++static inline bool lunatik_layers_valid(unsigned int mask)
++{
++ if (mask & ~((1u << LAYER_COUNT) - 1)) return false;
++ if ((mask & LUNATIK_BASE) != LUNATIK_BASE) return false;
++ if ((mask & LUNATIK_BIT(LAYER_PATH)) && !(mask & LUNATIK_BIT(LAYER_LSM))) return false;
++ if ((mask & (LUNATIK_BIT(LAYER_OPATH) | LUNATIK_BIT(LAYER_DIRENT) | LUNATIK_BIT(LAYER_KSTAT) | LUNATIK_BIT(LAYER_SYMBOLS))) && !(mask & LUNATIK_BIT(LAYER_PATH))) return false;
++ return true;
++}
++#ifdef __KERNEL__
++extern unsigned int lunatik_live_layers;
++static inline bool lunatik_layer_active(enum lunatik_layer layer)
++{
++ return (READ_ONCE(lunatik_live_layers) & LUNATIK_BIT(layer)) != 0;
++}
++#endif
++#endif
+--- a/susfs_hide_syms.c
++++ b/susfs_hide_syms.c
+@@ -760,18 +760,10 @@
+ 	rc = hide_syms_resolve_show(&kp_s_show, "kallsyms_op", "s_show",
+ 			&kallsyms_op_target);
+ 	if (rc) {
+-		/* Identity resolution failed: the table is not there, or its .show is not the body of a
+-		 * function named s_show (see hide_syms_resolve_show()).  Register BY NAME instead of
+-		 * hiding nothing - the name-based path was measured to work on a device where the table
+-		 * check does not.  kallsyms_op_target stays NULL, which is how the handler knows the
+-		 * m->op identity check is off and that hide_syms_iter_plausible() is the only gate; and
+-		 * .addr is cleared explicitly so the two fields are never set at once (that pair is what
+-		 * the kernel refuses with -EINVAL). */
+-		SUSFS_LOGI("susfs_hide_syms: kallsyms_op.show could not be validated (%d) - arming s_show BY NAME instead: the m->op check is OFF for this probe, so hide_syms_iter_plausible() is the only gate (if the name selects another s_show, that file can lose a line, and kallsyms hiding stays off)\n",
+-				rc);
+-		kp_s_show.addr = NULL;
+-		kp_s_show.symbol_name = "s_show";
+-	}
++        pr_warn("susfs_hide_syms: unvalidated kallsyms callback (%d); refusing ambiguous name-based probe\n", rc);
++        susfs_kp_forget_addr(&kp_s_show);
++        return rc;
++    }
+ 	rc = register_kprobe(&kp_s_show);
+ 	if (rc) {
+ 		pr_warn("susfs_hide_syms: cannot arm kallsyms s_show (%d) - /proc/kallsyms keeps listing susfs_/ksu_ symbols\n",
+@@ -790,12 +782,10 @@
+ 	rc = hide_syms_resolve_show(&kp_m_show, "modules_op", "m_show",
+ 			&modules_op_target);
+ 	if (rc) {
+-		/* Same fallback as s_show, same reason: by name, with modules_op_target left NULL. */
+-		SUSFS_LOGI("susfs_hide_syms: modules_op.show could not be validated (%d) - arming m_show BY NAME instead\n",
+-				rc);
+-		kp_m_show.addr = NULL;
+-		kp_m_show.symbol_name = "m_show";
+-	}
++        pr_warn("susfs_hide_syms: unvalidated modules callback (%d); refusing ambiguous name-based probe\n", rc);
++        susfs_kp_forget_addr(&kp_m_show);
++        return rc;
++    }
+ 	rc = register_kprobe(&kp_m_show);
+ 	if (rc) {
+ 		susfs_kp_forget_addr(&kp_m_show);
+--- a/susfs_main.c
++++ b/susfs_main.c
+@@ -21,6 +21,7 @@
+ #include "btf_layout.h"		/* the SELinux inode_security_struct.sid offset, by BTF */
+ #include "lsm_hook.h"
+ #include "susfs.h"
++#include "lunatik_layers.h"
+ #include "susfs_opath.h"	/* SUSFS_OPATH_NODE + the layer's init/exit */
+ 
+ /* The module's own name lives in susfs.h (SUSFS_LKM_MODULE_NAME / SUSFS_LKM_SYSFS_DIR):
+@@ -276,6 +277,10 @@
+  * on the device - a `fatal` layer failing must leave the load with nothing armed.
+  * `fail_layer=1` skips the ksu_umount_gate init WITHOUT failing the load (that layer is not fatal),
+  * which is safe only because its flag defaults to the pre-#34 answer - see ksu_umount_gate.c. */
++unsigned int lunatik_live_layers;
++static unsigned int lunatik_layers;
++module_param_named(layers, lunatik_layers, uint, 0400);
++MODULE_PARM_DESC(layers, "Explicit staged feature mask; default 0 refuses loading");
+ static int fail_layer;
+ module_param_named(fail_layer, fail_layer, int, 0644);
+ 
+@@ -289,6 +294,7 @@
+         if (!susfs_layers[i].armed)
+             continue;
+         susfs_layers[i].armed = false;
++        lunatik_live_layers &= ~LUNATIK_BIT(i);
+         if (susfs_layers[i].exit)
+             susfs_layers[i].exit();
+     }
+@@ -298,6 +304,11 @@
+ {
+     int i;
+ 
++    if (!lunatik_layers_valid(lunatik_layers)) {
++        pr_err("lunatik_susfs: explicit valid layers mask required; no hooks installed\n");
++        return -EINVAL;
++    }
++    BUILD_BUG_ON(ARRAY_SIZE(susfs_layers) != LAYER_COUNT);
+     /* First, before any layer runs and while nothing is armed: an import that was not filled in
+      * is an address this module would jump to on its first call through it.  See
+      * imports_guard.c - a loader that continues after an unresolved name leaves it zero, which
+@@ -323,6 +334,8 @@
+     for (i = 0; i < (int)ARRAY_SIZE(susfs_layers); i++) {
+         int ret;
+ 
++        if (!(lunatik_layers & LUNATIK_BIT(i))) continue;
++
+         /* Marked before the call: a layer that half-ran still has to be taken down. */
+         susfs_layers[i].armed = true;
+ 
+@@ -334,8 +347,10 @@
+             ret = susfs_layers[i].init ? susfs_layers[i].init() : 0;
+         }
+ 
+-        if (!ret)
++        if (!ret) {
++            lunatik_live_layers |= LUNATIK_BIT(i);
+             continue;
++        }
+ 
+         if (susfs_layers[i].fatal) {
+             pr_err("susfs_guard_lkm: %s init failed %d, refusing to load\n",
+@@ -346,12 +361,14 @@
+         }
+         pr_warn("susfs_guard_lkm: %s init failed %d - that feature stays off\n",
+                 susfs_layers[i].name, ret);
++        if (susfs_layers[i].exit) susfs_layers[i].exit();
++        susfs_layers[i].armed = false;
+     }
+ 
+     /* Registered last and undone implicitly: these are entries in sus_path's table, which
+      * sus_path_exit() empties while its LSM layer still answers ENOENT for the nodes. */
+-    susfs_self_hide_nodes();
+-    susfs_relabel_control_nodes();
++    if (lunatik_layer_active(LAYER_PATH)) susfs_self_hide_nodes();
++    if (lunatik_layer_active(LAYER_PATH)) susfs_relabel_control_nodes();
+ 
+     /* Operator note.  The module hides its own traces from EVERY caller, root included (a
+      * built-in SUSFS has no module entry, so hiding it only from non-root would leave a
+@@ -362,8 +379,11 @@
+      * operator greps for, so it stays unconditional even for a silent load - otherwise
+      * "loaded but logging off" is indistinguishable from "not loaded".  The prefix comes
+      * from pr_fmt (susfs_log.h), so the message must not repeat it. */
++    if (lunatik_layer_active(LAYER_SYMBOLS))
+     pr_info("loaded. This module is filtered out of /proc/modules for every caller including root, so `lsmod | grep susfs` stays empty - check /sys/module/%s instead (a second insmod fails with -EEXIST while it is loaded).\n",
+             SUSFS_LKM_MODULE_NAME);
++    else
++        pr_info("lunatik_susfs: staged load complete, active mask=0x%x; symbol filtering off\n", lunatik_live_layers);
+ 
+     return 0;
+ }
+@@ -415,3 +435,4 @@
+ MODULE_IMPORT_NS(VFS_internal_I_am_really_a_filesystem_and_am_NOT_a_driver);
+ #endif
+ MODULE_DESCRIPTION("SUSFS guard LKM (susfs_guard_lkm) v2.3.0-gki");
++MODULE_AUTHOR("SUSFS LKM upstream contributors; onyx adaptation: lunatik_kenny");
+--- a/susfs_supercall.c
++++ b/susfs_supercall.c
+@@ -25,6 +25,7 @@
+ #include "susfs_abi.h"
+ #include "susfs_log.h"
+ #include "susfs.h"
++#include "lunatik_layers.h"
+ 
+ struct susfs_tw {
+ 	struct callback_head cb;
+@@ -69,23 +70,24 @@
+  * by their init). */
+ struct feature_entry {
+ 	const char *name;
+-	bool (*active)(void);	/* NULL = always present */
++	bool (*active)(void);
++ enum lunatik_layer layer;	/* NULL = always present */
+ };
+ 
+ static const struct feature_entry enabled_features[] = {
+ 	/* First line, and deliberately not a CONFIG_* name: the caller has to be able to tell this
+ 	 * list apart from a built-in SUSFS's, whose features live in the kernel image and have a
+ 	 * different lifecycle (no load/unload, no /sys/module entry, no module parameters). */
+-	{ "SUSFS_LKM_MODULES\n",		NULL },
+-	{ "CONFIG_KSU_SUSFS_SUS_PATH\n",	sus_path_lsm_active },
+-	{ "CONFIG_KSU_SUSFS_SUS_MOUNT\n",	NULL },
+-	{ "CONFIG_KSU_SUSFS_SUS_KSTAT\n",	NULL },
+-	{ "CONFIG_KSU_SUSFS_SPOOF_UNAME\n",	NULL },
+-	{ "CONFIG_KSU_SUSFS_ENABLE_LOG\n",	NULL },
+-	{ "CONFIG_KSU_SUSFS_HIDE_KSU_SUSFS_SYMBOLS\n",	susfs_hide_syms_active },
+-	{ "CONFIG_KSU_SUSFS_SPOOF_CMDLINE_OR_BOOTCONFIG\n", NULL },
+-	{ "CONFIG_KSU_SUSFS_OPEN_REDIRECT\n",	NULL },
+-	{ "CONFIG_KSU_SUSFS_SUS_MAP\n",		NULL },
++	{ "SUSFS_LKM_MODULES\n",		NULL, LAYER_SUPERCALL },
++	{ "CONFIG_KSU_SUSFS_SUS_PATH\n",	sus_path_lsm_active, LAYER_PATH },
++	{ "CONFIG_KSU_SUSFS_SUS_MOUNT\n",	NULL, LAYER_MOUNT },
++	{ "CONFIG_KSU_SUSFS_SUS_KSTAT\n",	NULL, LAYER_KSTAT },
++	{ "CONFIG_KSU_SUSFS_SPOOF_UNAME\n",	NULL, LAYER_UNAME },
++	{ "CONFIG_KSU_SUSFS_ENABLE_LOG\n",	NULL, LAYER_LOG },
++	{ "CONFIG_KSU_SUSFS_HIDE_KSU_SUSFS_SYMBOLS\n",	susfs_hide_syms_active, LAYER_SYMBOLS },
++	{ "CONFIG_KSU_SUSFS_SPOOF_CMDLINE_OR_BOOTCONFIG\n", NULL, LAYER_CMDLINE },
++	{ "CONFIG_KSU_SUSFS_OPEN_REDIRECT\n",	NULL, LAYER_REDIRECT },
++	{ "CONFIG_KSU_SUSFS_SUS_MAP\n",		NULL, LAYER_MAP },
+ 	/* hide_modules is not upstream's, so it is not listed here - the feature itself is unchanged. */
+ };
+ 
+@@ -117,6 +119,7 @@
+ 		const char *name = enabled_features[i].name;
+ 		size_t len = strlen(name);
+ 
++		if (!lunatik_layer_active(enabled_features[i].layer)) continue;
+ 		if (enabled_features[i].active && !enabled_features[i].active())
+ 			continue;
+ 		if (off + len >= SUSFS_ENABLED_FEATURES_SIZE)
+@@ -204,26 +207,25 @@
+  * leave the regs and err alone, while every command listed here still short-circuits to 0. */
+ static bool susfs_cmd_handled(unsigned int cmd)
+ {
+-	switch (cmd) {
+-	case CMD_SUSFS_SHOW_VERSION:
+-	case CMD_SUSFS_SHOW_VARIANT:
+-	case CMD_SUSFS_SHOW_ENABLED_FEATURES:
+-	case CMD_SUSFS_ADD_SUS_PATH:
+-	case CMD_SUSFS_ADD_SUS_PATH_LOOP:
+-	case CMD_SUSFS_ADD_SUS_MAP:
+-	case CMD_SUSFS_ADD_SUS_KSTAT:
+-	case CMD_SUSFS_UPDATE_SUS_KSTAT:
+-	case CMD_SUSFS_ADD_SUS_KSTAT_STATICALLY:
+-	case CMD_SUSFS_SET_UNAME:
+-	case CMD_SUSFS_ENABLE_LOG:
+-	case CMD_SUSFS_ENABLE_AVC_LOG_SPOOFING:
+-	case CMD_SUSFS_SET_CMDLINE_OR_BOOTCONFIG:
+-	case CMD_SUSFS_ADD_OPEN_REDIRECT:
+-	case CMD_SUSFS_HIDE_SUS_MNTS_FOR_NON_SU_PROCS:
+-		return true;
+-	default:
+-		return false;
+-	}
++ switch (cmd) {
++ case CMD_SUSFS_SHOW_VERSION:
++ case CMD_SUSFS_SHOW_VARIANT:
++ case CMD_SUSFS_SHOW_ENABLED_FEATURES:
++  return lunatik_layer_active(LAYER_SUPERCALL);
++ case CMD_SUSFS_ADD_SUS_PATH:
++ case CMD_SUSFS_ADD_SUS_PATH_LOOP: return lunatik_layer_active(LAYER_PATH);
++ case CMD_SUSFS_ADD_SUS_MAP: return lunatik_layer_active(LAYER_MAP);
++ case CMD_SUSFS_ADD_SUS_KSTAT:
++ case CMD_SUSFS_UPDATE_SUS_KSTAT:
++ case CMD_SUSFS_ADD_SUS_KSTAT_STATICALLY: return lunatik_layer_active(LAYER_KSTAT);
++ case CMD_SUSFS_SET_UNAME: return lunatik_layer_active(LAYER_UNAME);
++ case CMD_SUSFS_ENABLE_LOG: return lunatik_layer_active(LAYER_LOG);
++ case CMD_SUSFS_ENABLE_AVC_LOG_SPOOFING: return lunatik_layer_active(LAYER_AVC);
++ case CMD_SUSFS_SET_CMDLINE_OR_BOOTCONFIG: return lunatik_layer_active(LAYER_CMDLINE);
++ case CMD_SUSFS_ADD_OPEN_REDIRECT: return lunatik_layer_active(LAYER_REDIRECT);
++ case CMD_SUSFS_HIDE_SUS_MNTS_FOR_NON_SU_PROCS: return lunatik_layer_active(LAYER_MOUNT);
++ default: return false;
++ }
+ }
+ 
+ static int reboot_pre(struct kprobe *kp, struct pt_regs *regs)

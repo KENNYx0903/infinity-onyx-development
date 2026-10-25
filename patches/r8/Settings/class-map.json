@@ -1,0 +1,132 @@
+{
+  "modified_or_added": [
+    {
+      "class": "com/android/settings/applications/ProcStatsEntry.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settings/display/AmbientDisplayAlwaysOnPreferenceScreen$Companion.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settings/display/BlurSettings$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/settings/display/BlurSettings$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/settings/display/BlurSettings$$ExternalSyntheticLambda2.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/settings/display/BlurSettings$$ExternalSyntheticLambda3.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/settings/display/BlurSettings$$ExternalSyntheticLambda4.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/settings/display/BlurSettings$$ExternalSyntheticLambda5.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/settings/display/BlurSettings$$ExternalSyntheticLambda6.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/settings/display/BlurSettings.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/settings/notification/LunatikTouchSoundPreference$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settings/notification/LunatikTouchSoundPreference$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settings/notification/LunatikTouchSoundPreference$$ExternalSyntheticLambda2.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settings/notification/LunatikTouchSoundPreference.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settings/notification/SoundSettings.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/settingslib/bluetooth/LeAudioProfile.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/settingslib/bluetooth/VolumeControlProfile.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/settingslib/widget/theme/flags/FeatureFlagsImpl.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/google/android/setupdesign/transition/TransitionHelper.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/google/android/setupdesign/util/Partner.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/infinity/localization/RuUiText.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/infinity/settings/battery/MiThermalFragment.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/infinity/settings/battery/MiThermalPerAppFragment.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/infinity/suite/fragments/NavbarStyles.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "org/tensorflow/lite/gpu/GpuDelegateNative.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    }
+  ],
+  "excluded_modified_classes": [],
+  "removed_classes": [],
+  "note": "Includes harmless reassembly differences such as jumbo string opcodes, labels and omitted explicit zero field defaults, to preserve exact R8 smali text."
+}

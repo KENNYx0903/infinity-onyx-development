@@ -1,0 +1,407 @@
+{
+  "modified_or_added": [
+    {
+      "class": "android/internal/os/profiling/FeatureFlagsImpl.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "android/net/NetworkFactory.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/BinaryTransparencyService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/BinderCallsStatsService$BinderCallsStatsShellCommand.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/BinderCallsStatsService$LifeCycle.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/BinderCallsStatsService$SettingsObserver.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/BinderCallsStatsService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/ContextHubSystemService$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/am/ActivityManagerConstants$1.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/am/ActivityManagerConstants.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/am/ActivityManagerShellCommand$BitmapDump.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/am/CachedAppOptimizer$FreezeHandler.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/am/ProcessList.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/attention/AttentionManagerService$BinderService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/audio/SoundEffectsHelper.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/audio/TouchSoundConfig.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/autofill/FieldClassificationStrategy.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/autofill/Helper.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/backup/BackupAgentConnectionManager.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/backup/KeyValueAdbBackupEngine.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/backup/keyvalue/KeyValueBackupTask.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/AuthService$Injector.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/BiometricService$SettingObserver.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/BiometricService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/BiometricStrengthController$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/BiometricStrengthController.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/Utils.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/log/BiometricLogger.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/sensors/BiometricScheduler$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/sensors/BiometricScheduler.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/sensors/BiometricSchedulerOperation.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/sensors/BiometricServiceRegistry.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/sensors/face/FaceService$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/sensors/face/FaceService$FaceServiceWrapper$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/sensors/fingerprint/FingerprintService$$ExternalSyntheticLambda2.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/biometrics/sensors/iris/IrisService$IrisServiceWrapper$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/blob/BlobMetadata.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/blob/BlobStoreConfig$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/blob/BlobStoreConfig.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/blob/BlobStoreManagerService$Stub.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/blob/BlobStoreManagerService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/blob/BlobStoreSession.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/credentials/RemoteCredentialService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/display/LocalDisplayAdapter$LocalDisplayDevice$1.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/display/LunatikAodWake.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/display/mode/LunatikAodBrightness$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/display/mode/LunatikAodBrightness$2.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/display/mode/LunatikAodBrightness.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/display/mode/ProximitySensorObserver.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/firewall/IntentFirewall$Rule.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/job/JobServiceContext.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/location/contexthub/ContextHubService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/locksettings/LockSettingsService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/media/quality/MediaQualityService$BinderService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/media/quality/MediaQualityUtils.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/notification/ManagedServices.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pm/InstallPackageHelper.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pm/LunatikOptionalGooglePolicy.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pm/PackageInstallerSession$$ExternalSyntheticLambda8.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pm/PackageInstallerSession.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pm/Settings.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pm/ShortcutPackage$$ExternalSyntheticLambda2.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pm/ShortcutPackage.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pm/ShortcutPackageInfo.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pm/ShortcutService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pm/ShortcutUser.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pocket/PocketSensorCompat$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pocket/PocketSensorCompat$State.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pocket/PocketSensorCompat.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/pocket/PocketService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/policy/PhoneWindowManager.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/policy/PocketWakeGate$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/policy/PocketWakeGate$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/policy/PocketWakeGate.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/power/ShutdownThread.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/rollback/RollbackManagerServiceImpl.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/textclassifier/TextClassificationManagerService$ServiceState.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/server/wm/DisplayPolicy.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/server/wm/Task.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/server/wm/TaskFragment.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    }
+  ],
+  "excluded_modified_classes": [],
+  "removed_classes": [],
+  "note": "Includes harmless reassembly differences such as jumbo string opcodes, labels and omitted explicit zero field defaults, to preserve exact R8 smali text."
+}

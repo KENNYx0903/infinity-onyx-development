@@ -1,0 +1,350 @@
+--- a/com/android/settings/applications/ProcStatsEntry.smali
++++ b/com/android/settings/applications/ProcStatsEntry.smali
+@@ -9,7 +9,7 @@
+ # static fields
+ .field public static final CREATOR:Landroid/os/Parcelable$Creator;
+ 
+-.field private static DEBUG:Z = false
++.field private static DEBUG:Z
+ 
+ 
+ # instance fields
+--- a/com/android/settings/display/AmbientDisplayAlwaysOnPreferenceScreen$Companion.smali
++++ b/com/android/settings/display/AmbientDisplayAlwaysOnPreferenceScreen$Companion.smali
+@@ -36,24 +36,6 @@
+ .method private final isAmbientWallpaperOptionsAvailable(Landroid/content/Context;)Z
+     .registers 2
+ 
+-    .line 185
+-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+-
+-    move-result-object p0
+-
+-    const p1, 0x111015c
+-
+-    invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getBoolean(I)Z
+-
+-    move-result p0
+-
+-    if-eqz p0, :cond_f
+-
+-    const/4 p0, 0x1
+-
+-    return p0
+-
+-    :cond_f
+     const/4 p0, 0x0
+ 
+     return p0
+--- a/com/android/settings/notification/SoundSettings.smali
++++ b/com/android/settings/notification/SoundSettings.smali
+@@ -513,7 +513,9 @@
+     .line 108
+     invoke-super {p0, p1}, Lcom/android/settings/dashboard/DashboardFragment;->onCreate(Landroid/os/Bundle;)V
+ 
+-    if-eqz p1, :cond_28
++    invoke-static {p0}, Lcom/android/settings/notification/LunatikTouchSoundPreference;->attach(Ljava/lang/Object;)V
++
++    if-eqz p1, :cond_2b
+ 
+     .line 110
+     const-string v0, "selected_preference"
+@@ -529,7 +531,7 @@
+ 
+     move-result v0
+ 
+-    if-nez v0, :cond_1a
++    if-nez v0, :cond_1d
+ 
+     .line 112
+     invoke-virtual {p0, p1}, Lcom/android/settings/core/InstrumentedPreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroidx/preference/Preference;
+@@ -541,7 +543,7 @@
+     iput-object p1, p0, Lcom/android/settings/notification/SoundSettings;->mRequestPreference:Lcom/android/settings/RingtonePreference;
+ 
+     .line 116
+-    :cond_1a
++    :cond_1d
+     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getFragmentManager()Landroidx/fragment/app/FragmentManager;
+ 
+     move-result-object p1
+@@ -559,7 +561,7 @@
+     iput-object p1, p0, Lcom/android/settings/notification/SoundSettings;->mDialogFragment:Lcom/android/settings/widget/UpdatableListPreferenceDialogFragment;
+ 
+     .line 120
+-    :cond_28
++    :cond_2b
+     const-string p1, "Settings.WORK_PROFILE_SOUND_SETTINGS_SECTION_HEADER"
+ 
+     sget v0, Lcom/android/settings/R$string;->sound_work_settings:I
+@@ -588,15 +590,15 @@
+ 
+     move-result-object v0
+ 
+-    if-eqz v0, :cond_49
+-
+-    if-eqz p1, :cond_49
++    if-eqz v0, :cond_4c
++
++    if-eqz p1, :cond_4c
+ 
+     .line 127
+     invoke-virtual {p0, v0}, Lcom/android/settings/notification/SoundSettings;->onPreferenceTreeClick(Landroidx/preference/Preference;)Z
+ 
+     .line 129
+-    :cond_49
++    :cond_4c
+     invoke-virtual {p0}, Landroidx/preference/PreferenceFragmentCompat;->getPreferenceScreen()Landroidx/preference/PreferenceScreen;
+ 
+     move-result-object p1
+@@ -627,12 +629,12 @@
+ 
+     move-result p1
+ 
+-    if-eqz p1, :cond_6a
++    if-eqz p1, :cond_6d
+ 
+     const/4 v1, 0x1
+ 
+     .line 140
+-    :cond_6a
++    :cond_6d
+     invoke-virtual {p0, v2}, Lcom/android/settings/core/InstrumentedPreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroidx/preference/Preference;
+ 
+     move-result-object p0
+--- a/com/android/settingslib/bluetooth/LeAudioProfile.smali
++++ b/com/android/settingslib/bluetooth/LeAudioProfile.smali
+@@ -7,7 +7,7 @@
+ 
+ 
+ # static fields
+-.field private static DEBUG:Z = false
++.field private static DEBUG:Z
+ 
+ 
+ # instance fields
+--- a/com/android/settingslib/bluetooth/VolumeControlProfile.smali
++++ b/com/android/settingslib/bluetooth/VolumeControlProfile.smali
+@@ -7,7 +7,7 @@
+ 
+ 
+ # static fields
+-.field private static DEBUG:Z = false
++.field private static DEBUG:Z
+ 
+ 
+ # instance fields
+--- a/com/android/settingslib/widget/theme/flags/FeatureFlagsImpl.smali
++++ b/com/android/settingslib/widget/theme/flags/FeatureFlagsImpl.smali
+@@ -7,9 +7,9 @@
+ 
+ 
+ # static fields
+-.field private static volatile isCached:Z = false
++.field private static volatile isCached:Z
+ 
+-.field private static isExpressiveDesignEnabled:Z = false
++.field private static isExpressiveDesignEnabled:Z
+ 
+ 
+ # direct methods
+--- a/com/google/android/setupdesign/transition/TransitionHelper.smali
++++ b/com/google/android/setupdesign/transition/TransitionHelper.smali
+@@ -4,11 +4,11 @@
+ 
+ 
+ # static fields
+-.field static isFinishCalled:Z = false
+-
+-.field static isStartActivity:Z = false
+-
+-.field static isStartActivityForResult:Z = false
++.field static isFinishCalled:Z
++
++.field static isStartActivity:Z
++
++.field static isStartActivityForResult:Z
+ 
+ 
+ # direct methods
+--- a/com/google/android/setupdesign/util/Partner.smali
++++ b/com/google/android/setupdesign/util/Partner.smali
+@@ -4,9 +4,9 @@
+ 
+ 
+ # static fields
+-.field private static partner:Lcom/google/android/setupdesign/util/Partner; = null
+-
+-.field private static searched:Z = false
++.field private static partner:Lcom/google/android/setupdesign/util/Partner;
++
++.field private static searched:Z
+ 
+ 
+ # instance fields
+--- a/com/infinity/settings/battery/MiThermalFragment.smali
++++ b/com/infinity/settings/battery/MiThermalFragment.smali
+@@ -65,6 +65,10 @@
+ 
+     const-string v1, "Auto"
+ 
++    invoke-static/range {v1 .. v1}, Lcom/infinity/localization/RuUiText;->text(Ljava/lang/String;)Ljava/lang/String;
++
++    move-result-object v1
++
+     const-string v2, "Default"
+ 
+     const-string v3, "Performance"
+@@ -146,6 +150,10 @@
+     const-string v17, "Battery saver \u2014 aggressive power saving + powersave mode"
+ 
+     const-string v1, "System manages thermal profile automatically"
++
++    invoke-static/range {v1 .. v1}, Lcom/infinity/localization/RuUiText;->text(Ljava/lang/String;)Ljava/lang/String;
++
++    move-result-object v1
+ 
+     const-string v2, "Standard thermal management \u2014 CPU throttle from 25\u00b0C"
+ 
+--- a/com/infinity/settings/battery/MiThermalPerAppFragment.smali
++++ b/com/infinity/settings/battery/MiThermalPerAppFragment.smali
+@@ -109,6 +109,10 @@
+     const-string v17, "Battery Saver"
+ 
+     const-string v1, "Follow Global"
++
++    invoke-static/range {v1 .. v1}, Lcom/infinity/localization/RuUiText;->text(Ljava/lang/String;)Ljava/lang/String;
++
++    move-result-object v1
+ 
+     const-string v2, "Default"
+ 
+--- a/com/infinity/suite/fragments/NavbarStyles.smali
++++ b/com/infinity/suite/fragments/NavbarStyles.smali
+@@ -507,57 +507,71 @@
+ .end method
+ 
+ .method public getDrawable(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+-    .registers 4
+-
+-    .line 300
+-    const-string p0, "com.android.launcher3"
+-
+-    invoke-virtual {p2, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+-
+-    move-result p0
+-
+-    if-eqz p0, :cond_a
+-
+-    .line 301
++    .registers 6
++
++    const-string v0, "com.android.launcher3"
++
++    invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result v0
++
++    if-eqz v0, :cond_a
++
+     const-string p2, "com.android.settings"
+ 
+-    .line 303
+     :cond_a
+     :try_start_a
+     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+ 
+-    move-result-object p0
+-
+-    .line 304
+-    invoke-virtual {p0, p2}, Landroid/content/pm/PackageManager;->getResourcesForApplication(Ljava/lang/String;)Landroid/content/res/Resources;
+-
+-    move-result-object p0
+-
+-    .line 305
+-    const-string p1, "drawable"
+-
+-    invoke-virtual {p0, p3, p1, p2}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+-
+-    move-result p1
+-
+-    .line 306
+-    invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+-
+-    move-result-object p0
+-    :try_end_1c
+-    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_a .. :try_end_1c} :catch_1d
+-
+-    return-object p0
+-
+-    :catch_1d
+-    move-exception p0
+-
+-    .line 308
+-    invoke-virtual {p0}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
+-
+-    const/4 p0, 0x0
+-
+-    return-object p0
++    move-result-object v0
++
++    invoke-virtual {v0, p2}, Landroid/content/pm/PackageManager;->getResourcesForApplication(Ljava/lang/String;)Landroid/content/res/Resources;
++
++    move-result-object v0
++
++    const-string v1, "drawable"
++
++    invoke-virtual {v0, p3, v1, p2}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
++
++    move-result v1
++
++    if-nez v1, :cond_2c
++
++    const-string v1, "ic_sysbar_recent"
++
++    invoke-virtual {v1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result v1
++
++    if-eqz v1, :cond_32
++
++    const-string p3, "ic_sysbar_recents"
++
++    const-string v1, "drawable"
++
++    invoke-virtual {v0, p3, v1, p2}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
++
++    move-result v1
++
++    if-eqz v1, :cond_32
++
++    :cond_2c
++    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
++
++    move-result-object v0
++    :try_end_30
++    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_a .. :try_end_30} :catch_31
++    .catch Landroid/content/res/Resources$NotFoundException; {:try_start_a .. :try_end_30} :catch_31
++
++    return-object v0
++
++    :catch_31
++    move-exception v0
++
++    :cond_32
++    const/4 v0, 0x0
++
++    return-object v0
+ .end method
+ 
+ .method public getLabel(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+--- a/org/tensorflow/lite/gpu/GpuDelegateNative.smali
++++ b/org/tensorflow/lite/gpu/GpuDelegateNative.smali
+@@ -6,7 +6,7 @@
+ # static fields
+ .field static final LOAD_LIBRARY_EXCEPTION:Ljava/lang/Throwable;
+ 
+-.field private static volatile isInit:Z = false
++.field private static volatile isInit:Z
+ 
+ 
+ # direct methods

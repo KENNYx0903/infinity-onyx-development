@@ -1,0 +1,8 @@
+{
+  "component": "Launcher",
+  "base_sha256": "765da7a8a552003c2e45a5607ef92fd3ab6656960f6f3552b5c40887ea2f91c2",
+  "r8_sha256": "e6e2591c4cc555d92720cc8367c13c768457fb7078dcf1257960df691f795293",
+  "changed_classes": 52,
+  "new_classes": 17,
+  "excluded_new_classes": []
+}

@@ -1,0 +1,26 @@
+--- a/audio_policy_volumes.xml
++++ b/audio_policy_volumes.xml
+@@ -31,17 +31,15 @@
+         <point>100,0</point>
+     </volume>
+     <volume stream="AUDIO_STREAM_VOICE_CALL" deviceCategory="DEVICE_CATEGORY_SPEAKER">
+-        <point>0,-9600</point>
+-        <point>1,-2400</point>
+-        <point>33,-1600</point>
+-        <point>66,-800</point>
++        <point>0,-3000</point>
++        <point>33,-2010</point>
++        <point>66,-1020</point>
+         <point>100,0</point>
+     </volume>
+     <volume stream="AUDIO_STREAM_VOICE_CALL" deviceCategory="DEVICE_CATEGORY_EARPIECE">
+-        <point>0,-9600</point>
+-        <point>1,-2400</point>
+-        <point>33,-1600</point>
+-        <point>66,-800</point>
++        <point>0,-3000</point>
++        <point>33,-2010</point>
++        <point>66,-1020</point>
+         <point>100,0</point>
+     </volume>
+     <volume stream="AUDIO_STREAM_VOICE_CALL" deviceCategory="DEVICE_CATEGORY_EXT_MEDIA"

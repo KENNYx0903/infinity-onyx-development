@@ -1,0 +1,8 @@
+{
+  "component": "SystemUI",
+  "base_sha256": "623a6631c9e7b23c0b239521bbcffa5317a2e47084a91ae8c4f79efa751b832b",
+  "r8_sha256": "e3ebd9948190b35a174212202117d56f14f6d006847c912edf8650fdf812be61",
+  "changed_classes": 97,
+  "new_classes": 71,
+  "excluded_new_classes": []
+}

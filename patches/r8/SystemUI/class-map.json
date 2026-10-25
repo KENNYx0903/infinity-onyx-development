@@ -1,0 +1,847 @@
+{
+  "modified_or_added": [
+    {
+      "class": "androidx/collection/LruCache.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/input/pointer/util/VelocityTracker.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/input/pointer/util/VelocityTracker1D.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/layout/AlignmentLineKt$LastBaseline$1.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/node/LookaheadPassDelegate.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/node/MeasureAndLayoutDelegate.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/node/MeasurePassDelegate.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/platform/AndroidComposeViewAccessibilityDelegateCompat$$ExternalSyntheticLambda2.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/semantics/SemanticsPropertiesKt.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/text/AndroidParagraph.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/unit/Constraints.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/compose/ui/unit/ConstraintsKt.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/constraintlayout/core/LinearSystem.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/constraintlayout/widget/ConstraintSet.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/recyclerview/widget/RecyclerView.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/slice/widget/RowView.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/transition/Transition.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "androidx/window/embedding/EmbeddingAdapter.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/airbnb/lottie/L.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/airbnb/lottie/parser/LayerParser.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/airbnb/lottie/parser/LottieCompositionMoshiParser.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/keyguard/KeyguardUpdateMonitor.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/mechanics/spec/MotionSpec.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/settingslib/fuelgauge/BatteryStatus.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/settingslib/wifi/WifiUtils$Companion.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/BottomMarginCommand.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/axion/volume/AxionVolumeDialog.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/axion/volume/AxionVolumeDialogPlugin$controllerCallbacks$1.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/axion/volume/ui/composable/RingerControlKt$$ExternalSyntheticLambda2.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/axion/volume/ui/composable/RingerControlKt.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/axion/volume/ui/composable/VolumeDialogContentKt$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/axion/volume/ui/composable/VolumeDialogContentKt$$ExternalSyntheticLambda7.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/axion/volume/ui/composable/VolumeDialogContentKt.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/biometrics/UdfpsController$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/biometrics/UdfpsController.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/bouncer/domain/interactor/PrimaryBouncerInteractor.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/brightness/data/repository/ScreenBrightnessDisplayManagerRepository.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/brightness/ui/compose/BrightnessSliderKt.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/charging/ChargingAnimationViewController.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/charging/WiredChargingRippleController.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/clocks/AODStyle.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/clocks/ClockStyle$statusBarStateListener$1.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/clocks/ClockStyle.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/dagger/DaggerReferenceGlobalRootComponent$ReferenceSysUIComponentImpl$SwitchingProvider$70.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/DozeSensors.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/DozeService.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/DozeTriggers.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodPocket$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodPocket$2.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodPocket.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodTransition.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$1$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$10.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$11.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$2.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$3.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$4.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$5.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$6.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$7.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$8$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$8.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual$9.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikAodVisual.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikIndicationFade.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/LunatikSleepUi.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/PocketFingerprintGate$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/PocketFingerprintGate$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/PocketFingerprintGate.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/PocketResume120$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/PocketResume120$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/PocketResume120$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/doze/PocketResume120.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/haptics/msdl/qs/TileHapticsViewModel$onActivated$2.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/haptics/slider/SliderHapticFeedbackProvider.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/kairos/IncrementalKt$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/kairos/internal/StateScopeImpl.smali",
+      "baseline_dex": "classes.dex",
+      "r8_dex": "classes.dex"
+    },
+    {
+      "class": "com/android/systemui/keyguard/KeyguardService$2.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/keyguard/KeyguardService.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/keyguard/OnyxLockHaptic$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/keyguard/OnyxLockHaptic$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/keyguard/OnyxLockHaptic.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/keyguard/ui/binder/KeyguardIndicationAreaBinder$bind$2$1$1$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/keyguard/ui/view/DeviceEntryIconView.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/keyguard/ui/view/KeyguardIndicationArea.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/keyguard/ui/view/KeyguardRootView.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/keyguard/ui/viewmodel/PrimaryBouncerToGoneTransitionViewModel.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/navigationbar/gestural/NavigationHandle.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/scrim/ScrimView.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/shade/QuickSettingsControllerImpl.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/BlurUtils.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/KeyguardIndicationController$BaseKeyguardCallback.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/KeyguardIndicationController.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/LunatikBlurConfig$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/LunatikBlurConfig.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes4.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/NotificationShadeDepthController.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationBackgroundView.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGlass$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGlass$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGlass$$ExternalSyntheticLambda2.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGlass$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGlass$2$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGlass$2.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGlass$Material$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGlass$Material$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGlass$Material.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGlass.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGuts.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/row/NotificationGutsManager$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/stack/MagneticNotificationRowManagerImpl.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/stack/NotificationStackScrollLayout.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/stack/ui/viewbinder/SharedNotificationContainerBinder$bind$2$1$1$1$1$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/notification/stack/ui/viewbinder/SharedNotificationContainerBinder$bind$2$1$1$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/phone/BiometricUnlockController.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/phone/DozeServiceHost$1.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/phone/DozeServiceHost.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/phone/KeyguardIndicationTextView.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/phone/NotificationIconContainer.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/phone/ScreenOffAnimationController.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/statusbar/phone/ScrimController.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/volume/VolumeDialogControllerImpl.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/volume/VolumePanelDialog.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/systemui/volume/dialog/VolumeDialog.smali",
+      "baseline_dex": "classes2.dex",
+      "r8_dex": "classes2.dex"
+    },
+    {
+      "class": "com/android/wm/shell/transition/DefaultTransitionHandler.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/transition/Transitions.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/CaptionWindowDecorViewModel$3.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/CaptionWindowDecorViewModel$CaptionTouchEventListener.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/CaptionWindowDecorViewModel.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/CaptionWindowDecoration.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/DragResizeInputListener.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/EdgeFreeform$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/EdgeFreeform$State.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/EdgeFreeform.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/FluidResizeTaskPositioner.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeform$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeform$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeform$$ExternalSyntheticLambda2.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeform$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeform$ResizeFrame.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeform.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda0.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda10.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda11.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda12.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda2.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda3.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda4.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda5.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda6.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda7.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda8.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$$ExternalSyntheticLambda9.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$1.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$2.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$3.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$Dots.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$Opening.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects$State.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/LunatikFreeformEffects.smali",
+      "baseline_dex": null,
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/WindowDecorLinearLayout.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/android/wm/shell/windowdecor/common/viewhost/SurfaceControlViewHostAdapter.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/google/android/msdl/data/model/MSDLToken.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/google/android/msdl/data/repository/MSDLRepositoryImpl$Companion$HAPTIC_DATA$13.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/google/android/setupdesign/transition/TransitionHelper.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/google/android/setupdesign/util/Partner.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    },
+    {
+      "class": "com/google/protobuf/ExtensionRegistryLite.smali",
+      "baseline_dex": "classes3.dex",
+      "r8_dex": "classes3.dex"
+    }
+  ],
+  "excluded_modified_classes": [],
+  "removed_classes": [],
+  "note": "Includes harmless reassembly differences such as jumbo string opcodes, labels and omitted explicit zero field defaults, to preserve exact R8 smali text."
+}

@@ -1,0 +1,9 @@
+package com.android.launcher3.icons;
+import android.content.*;import android.widget.TextView;import java.util.WeakHashMap;import androidx.preference.*;
+public final class DrawerLabelToggle {
+ static final String KEY="pref_drawer_label_condense";static SharedPreferences prefs;static final WeakHashMap<TextView,Boolean> views=new WeakHashMap<>();
+ static final SharedPreferences.OnSharedPreferenceChangeListener listener=(p,k)->{if(KEY.equals(k))for(TextView v:views.keySet()){if(v!=null){if(!p.getBoolean(KEY,true))v.setTextScaleX(1f);v.requestLayout();v.invalidate();}}};
+ static void init(Context c){if(prefs!=null)return;prefs=c.getApplicationContext().getSharedPreferences("com.android.launcher3.prefs",0);prefs.registerOnSharedPreferenceChangeListener(listener);}
+ public static boolean enabled(TextView v){init(v.getContext());views.put(v,true);if(!prefs.getBoolean(KEY,true)){if(v.getTextScaleX()!=1f)v.setTextScaleX(1f);return false;}return true;}
+ public static void attach(Object fragment){try{PreferenceScreen screen=(PreferenceScreen)fragment.getClass().getMethod("getPreferenceScreen").invoke(fragment);Context c=(Context)fragment.getClass().getMethod("getContext").invoke(fragment);init(c);boolean ru=c.getResources().getConfiguration().getLocales().get(0).getLanguage().equals("ru");SwitchPreferenceCompat p=new SwitchPreferenceCompat(c,null);p.setKey(KEY);p.setPersistent(false);p.setTitle(ru?"Сжатие подписей приложений":"Condense app labels");p.setSummary(ru?"Сужать длинные названия в меню приложений, чтобы они помещались целиком":"Narrow long app drawer labels to fit more text");p.setChecked(prefs.getBoolean(KEY,true));p.setOrder(2);p.setIconSpaceReserved(false);p.setOnPreferenceChangeListener((pref,value)->{prefs.edit().putBoolean(KEY,(Boolean)value).apply();return true;});screen.addPreference(p);}catch(Exception e){android.util.Log.e("DrawerLabelToggle","attach",e);}}
+}
